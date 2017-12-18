@@ -40,52 +40,75 @@
 * Software development, delivery, and operational experience
 * Familiarity with software design and architecture patterns: Desktop, Web, Mobile, and Soa
 
-
 # Course Duration
-1 or 2 days
+2 days
 
 # Outline
 
 ## What's Lift-and-Shift
 
 * Define lift-and-shift migration
+* Lab: Cloud vs. on-premises
 * Compare to alternative migration approaches
+* Lab: IaaS, PaaS, CaaS, FaaS, and DaaS
 * Enlist pros and cons for lift-and-shift approach
+* Lab: Current vs. Future state and possible approaches
 
 ## Planning for the migration
 
 * Categorizing systems before migration
+* Lab: Select few existing and future systems for open discussion
 * Identifying system dependencies
 * Assessing cloud compatibility challenges
+* Lab: Common dependency challenges and solutions
+* Instance types: bare metal, balanced, high CPU, high Memory, and high IO
+* Cloud Provider options: Azure vs Oracle
+* Lab: Creating and configuring first instance on Public Cloud 
 
-## Application Design
+## Application Architecture
 
 * Resource usage analysis
+* Lab: common tools for resource utilization
 * Storage space and IO speed
+* Lab: Instance types and and IO considerations
 * Intermittent connectivity issues
+* Lab: What to do when I cannot connect?
 * Caching and Session Management
 * Resilience of software design
+* Lab: Common design patterns
 
 ## Networking
 
 * IP address space allocation
 * Connectivity between on-premises and cloud assets
+* Lab: Network design patterns
 * VPN and Firewall management
+* Lab: Cloud provider network management
 
 ## Operation and Monitoring
 
 * Deployment automation
+* Lab: Options for deployment automation
 * Configuration management
+* Lab: Options for configuration management
 * Monitoring options
+* Lab: Options for cloud monitoring
 
 ## High-Availability and Disaster Recovery
 
 * Backup and restore options
+* Lab: Cloud Storage/Backup Services
 * Multi-region/zone availability
+* Lab: Geo collocation design patterns
 * What happens when a cloud provider goes down?
+* Lab: Software design and Disaster Recovery patterns
 
 ## Summary
 
 * Best practices
 * Lessons learned
 * Pace of innovation on the cloud
+
+# Fine Print
+* Labs refer to a hand-on exercise, to a group discussion, or to a guided self-study
+* Lab instructions are general guidance as cloud providers interface and options are frequently updated
