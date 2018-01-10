@@ -1,7 +1,7 @@
 # Each bullet translates into a couple of slides
 
 ## General
-  * Make sure to hyperlink your points using <a href="..." target="_blank"></a> so instructors and students  
+  * Make sure to hyperlink your points using ```<a href="..." target="_blank"></a>``` so instructors and students  
   * Diagrams better than words, but are more time consuming to produce, make sure not to violate copyrights  
   * Cloud UI and Api changes fast, try to avoid too detailed steps to get students familiar to deal with the change  
   * If we need to store any files for students to download during the labs - we will use S3 instead of gitbook hosting  
