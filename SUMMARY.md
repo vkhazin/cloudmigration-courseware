@@ -3,6 +3,7 @@
 ## Course Overview ##
 
 * [Getting Started](./content/GettingStarted.md)
+* [Notes to Author](./notes-to-author.md)
 
 ## Chapter 0: Overview ##
 * [Introduction](./content/chapter-00/Intro.md)
@@ -13,3 +14,7 @@
 * [About Instructor](./content/chapter-00/AboutInstructor.md)
 * [About Participants](./content/chapter-00/AboutParticipants.md)
 * [Logistics](./content/chapter-00/Logistics.md)
+
+## Chapter 1: Cloud Migration, Why and How ##
+* [Introduction](./content/chapter-01/Intro.md)
+* [Summary](./content/chapter-01/Summary.md)
