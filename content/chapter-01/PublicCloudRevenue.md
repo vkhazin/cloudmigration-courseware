@@ -2,11 +2,14 @@
 
 ## Public cloud revenue
 
+> **Quote** As of 2016, approximately 17 percent of the total market revenue for infrastructure, middleware, application and business process services had shifted to cloud. 
+> Through 2021, this will increase to approximately 28 percent.
+
+
 > The highest revenue growth will come from cloud system infrastructure services.
 
 
-> As of 2016, approximately 17 percent of the total market revenue for infrastructure, middleware, application and business process services had shifted to cloud. 
-> Through 2021, this will increase to approximately 28 percent.
+
 
 
 |                                                   | 2016   | 2017   | 2018   | 2019   | 2020   |
