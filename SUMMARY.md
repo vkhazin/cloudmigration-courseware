@@ -18,4 +18,5 @@
 ## Chapter 1: Cloud Migration, Why and How ##
 * [Introduction](./content/chapter-01/Intro.md)
 * [Public Cloud Benefits](./content/chapter-01/PublicCloudBenefits.md)
+* [Public Cloud Revenue](./content/chapter-01/PublicCloudRevenue.md)
 * [Summary](./content/chapter-01/Summary.md)

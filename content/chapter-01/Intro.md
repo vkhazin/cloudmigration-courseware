@@ -2,6 +2,7 @@
 
 * Public cloud state of adoption
   * [Benefits](./PublicCloudBenefits.md)
+  * [Revenue](./PublicCloudRevenue.md)
 * Motivation for public cloud
 * Why I cannot do it all in my own data centre?
 * Considerations for different migration strategies
