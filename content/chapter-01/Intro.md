@@ -3,7 +3,7 @@
 * Public cloud state of adoption
   * [Benefits](./PublicCloudBenefits.md)
 * Motivation for public cloud
-* Why I cannot do it all in my own data centre?
+* [Can we do it on-premise?](./CanWeDoItOnPremise.md)
 * Considerations for different migration strategies
 * Lab: IaaS, PaaS, CaaS, FaaS, and DaaS
 * Planning and executing a migration strategy

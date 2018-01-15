@@ -18,4 +18,5 @@
 ## Chapter 1: Cloud Migration, Why and How ##
 * [Introduction](./content/chapter-01/Intro.md)
 * [Public Cloud Benefits](./content/chapter-01/PublicCloudBenefits.md)
+* [Can we do it on-premise?](./content/chapter-01/CanWeDoItOnPremise.md)
 * [Summary](./content/chapter-01/Summary.md)
