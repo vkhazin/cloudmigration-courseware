@@ -4,6 +4,7 @@
   "description": "Lift-and-shift cloud migration courseware",
   "dependencies": {
     "gitbook": "^3.2.2",
+    "gitbook-cli": "^2.3.2",
     "gitbook-plugin-footer": "^0.0.6"
   },
   "author": "Vlad Khazin & Darien Martinez",

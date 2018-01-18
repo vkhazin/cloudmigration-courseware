@@ -3,7 +3,7 @@
 
 // Run button configuration
   "commands": {
-        "Gitbook Serve": "gitbook serve"
+        "Gitbook Serve": "node_modules/.bin/gitbook serve"
   },
 
 // Preview button configuration
