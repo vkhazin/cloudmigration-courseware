@@ -2,6 +2,7 @@
 
 * Public cloud state of adoption
   * [Benefits](./PublicCloudBenefits.md)
+  * [Revenue](./PublicCloudRevenue.md)
 * Motivation for public cloud
 * [Can we do it on-premise?](./CanWeDoItOnPremise.md)
 * Considerations for different migration strategies
