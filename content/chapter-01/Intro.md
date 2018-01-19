@@ -5,6 +5,7 @@
   * [Revenue](./PublicCloudRevenue.md)
 * Motivation for public cloud
 * [Can we do it on-premise?](./CanWeDoItOnPremise.md)
+  * [Public Cloud Providers offers](./PublicCloudProvidersOffers.md)
 * Considerations for different migration strategies
   * [Overview](./CloudMigrationOverview.md)
   * [Strategies](./CloudMigrationStrategies.md)
