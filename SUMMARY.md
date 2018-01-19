@@ -19,4 +19,5 @@
 * [Introduction](./content/chapter-01/Intro.md)
 * [Public Cloud Benefits](./content/chapter-01/PublicCloudBenefits.md)
 * [Can we do it on-premise?](./content/chapter-01/CanWeDoItOnPremise.md)
+* [Public Cloud providers offers](./content/chapter-01/PublicCloudProvidersOffers.md)
 * [Summary](./content/chapter-01/Summary.md)

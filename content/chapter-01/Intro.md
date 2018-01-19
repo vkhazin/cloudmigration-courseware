@@ -4,6 +4,7 @@
   * [Benefits](./PublicCloudBenefits.md)
 * Motivation for public cloud
 * [Can we do it on-premise?](./CanWeDoItOnPremise.md)
+  * [Public Cloud Providers offers](./PublicCloudProvidersOffers.md)
 * Considerations for different migration strategies
 * Lab: IaaS, PaaS, CaaS, FaaS, and DaaS
 * Planning and executing a migration strategy
