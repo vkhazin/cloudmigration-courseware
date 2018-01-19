@@ -34,9 +34,22 @@
   * Find a reference what's the industry stats about selecting a migration strategy
 
 ### Lab: IaaS, PaaS, CaaS, FaaS, and DaaS
-  * Setup access to the cloud provider
-  * Walk through common tasks, e.g. provision an instance, configure security
-  * Students should feel familiar with finding their way around the could management UI for continue of the course
+  * Students are to login into web console UI with prepared ahead-of-time accounts
+  * Explain what has been prepared ahead of the course:
+    * An account has been setup with a (nearly) full access for each participant
+    * Nothing else was setup, you will find the same account as if you were to create a new one yourselves
+    * Cloud UI changes often, there is a chance that new accounts will have a different look-and-feel
+  * There is a default network setup - don't use it, start from scratch to remove the magic
+  * Students are to create a small ip address space subnet network for every participant for a full isolation
+  * Double check a single region/availability zone will sport up-to 20 students class
+  * Prepare one backup network for Instructor ahead of time ready-to-use in case creation of network is delayed unexpectedly on the public cloud
+  * Focus on minimal setup: one small subnet, one access group, one VM, one public ip, one application deployed e.g. apache/nginx web server with hello world
+  * Configure the components required to access the web site with 'hello world' on it
+  * Compare term differences between couple of clouds e.g. Azure and Oracle
+  * Pose a question, where is my db, application server, disk storage, and etc.
+  * Elaborate VM can be configured with or without public access and with any desired software installed
+  * Walk through a couple (just a couple) of ready-to-use alternatives to VM: cloud function and database as a service
+  * Get into the open question why VM (backward compatibility) or why not a VM (moving into a brave new world)
 
 ### Planning and executing a migration strategy
   * Find a horror story to create an emotional connection on how bad a poor execution can go
