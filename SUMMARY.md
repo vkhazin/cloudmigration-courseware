@@ -20,4 +20,7 @@
 * [Public Cloud Benefits](./content/chapter-01/PublicCloudBenefits.md)
 * [Public Cloud Revenue](./content/chapter-01/PublicCloudRevenue.md)
 * [Can we do it on-premise?](./content/chapter-01/CanWeDoItOnPremise.md)
+* [Public Cloud providers offers](./content/chapter-01/PublicCloudProvidersOffers.md)
+* [Cloud Migrations Overview](./content/chapter-01/CloudMigrationOverview.md)
+* [Cloud Migration Strategies](./content/chapter-01/CloudMigrationStrategies.md)
 * [Summary](./content/chapter-01/Summary.md)
