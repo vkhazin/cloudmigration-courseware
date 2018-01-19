@@ -3,7 +3,6 @@
 ## Course Overview ##
 
 * [Getting Started](./content/GettingStarted.md)
-* [Notes to Author](./notes-to-author.md)
 
 ## Chapter 0: Overview ##
 * [Introduction](./content/chapter-00/Intro.md)

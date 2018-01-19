@@ -45,6 +45,7 @@
   * Prepare one backup network for Instructor ahead of time ready-to-use in case creation of network is delayed unexpectedly on the public cloud
   * Focus on minimal setup: one small subnet, one access group, one VM, one public ip, one application deployed e.g. apache/nginx web server with hello world
   * Configure the components required to access the web site with 'hello world' on it
+  * Should students ask what about two web servers load-balanced, don't answer, ask them to find an answer using online search
   * Compare term differences between couple of clouds e.g. Azure and Oracle
   * Pose a question, where is my db, application server, disk storage, and etc.
   * Elaborate VM can be configured with or without public access and with any desired software installed
