@@ -1,5 +1,12 @@
 # Each bullet translates into a couple of slides
 
+
+# Gitbook Setup to author the materials:
+* Install node.js
+* Install packages: ```npm install```
+* To run: ```./node_modules/.bin/gitbook build```
+* To access from browser: ```http://domain-name:4000```
+
 # Per Gap:
 
 * we are looking for lab/content to reflect Azure or Oracle Cloud (not Amazon Web Services)
