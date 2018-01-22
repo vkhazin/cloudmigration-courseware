@@ -12,8 +12,6 @@
 * we are looking for lab/content to reflect Azure or Oracle Cloud (not Amazon Web Services)
 * Also, would it be possible for Vlad to specifically include or call out Test Driven Design (TDD) principles in this training, perhaps in the lab work? I can bring a call together with our internal SME on TDD for this if helpful. We are looking to incorporate TDD across many of our offerings, even if only in a lightweight way, to influence adoption.
 
-
-
 ## General
   * Make sure to hyperlink your points using ```<a href="..." target="_blank"></a>``` for instructors and students  
   * Diagrams better than words, but are more time consuming to produce, make sure not to violate copyrights  
@@ -40,7 +38,18 @@
   * Highlight that VM is not enough: network, load-balancers, firewalls, high availability and etc are essential as well
   * Pay a special attention to the ability to create an entire data centre with an automation such as terraform
 
-
+### Lab: Cloud vs. on-premises
+  * The lab is to question the wisdom whether public cloud is pretty much the same as on premises deployment with infra managed by a third party
+  * Enumerate go-live activities related to <a href="https://en.wikipedia.org/wiki/Systems_development_life_cycle" target="_blank">SDLC</a> after the code development is complete. Likely items:
+    * Hardware planning and provisioning: what if there is no more storage left on the SAN?
+    * Preparation of a deployment package, what if the build server is down?
+    * What is the process of build verification and re-deployment, if needs to be?
+    * Firewall requests, is there a single or multiple firewall involved, what happens when firewall is mis-configured?
+    * How do you roll-out A/B testing, if not using it today could you with the on-premises deployment model?
+    * What's required to configure a DNS name and how mis-configurations are resolved?
+  * List anticipated and actual time-frames for the activities listed
+  * Envision an unanticipated spike in traffic, how do you recover with an on-premises deployment?
+  
 ### Considerations for different migration strategies
   * List migration strategies as described by leading cloud providers Aws and Azure
   * Outline pros and cons of each approach
@@ -71,9 +80,17 @@
   * Borrow ideas from cloud migration webinars/articles
   * Emphasize with reference that there is no one size-fits-all strategy
   
+### Lab: Current vs. Future state and possible approaches
+  * Take a selected application offered by the students
+  * Build a deployment layout:
+    * How many application tiers?
+    * How many servers to allocate for each tier?
+    * Can the tier support auto-scaling, any in-memory state or a sticky session?
+    * Are there any opportunities to leverage PaaS, FaaS, or DaaS in the future
+  
 ### Getting ready for the adoption and migration setbacks
-  * Big-bang approach is unforgiving for mistakes, iterative and agile maybe more pragmatic
-  * Things will blow as with every new major initiative
-  * Reference common failures
-  * Provide links to forums and 
+  * Big-bang approach is quite unforgiving for mistakes, iterative and agile maybe a more pragmatic direction
+  * Things will blow as with every new major initiative - don't get discouraged
+  * Reference common failures, small oversights vs. a big disaster
+  * Provide links to forums and discussions
   * Find a failure story with a recovery plan to ignite confidence
