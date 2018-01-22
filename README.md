@@ -57,7 +57,7 @@
 ## Planning for the migration
 
 * Categorizing systems before migration
-* Lab: Select few existing and future systems for open discussion
+* Lab: Select few existing and/or future systems for an open discussion
 * Identifying system dependencies
 * Assessing cloud compatibility challenges
 * Lab: Common dependency challenges and solutions

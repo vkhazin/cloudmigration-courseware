@@ -23,3 +23,8 @@
 * [Cloud Migrations Overview](./content/chapter-01/CloudMigrationOverview.md)
 * [Cloud Migration Strategies](./content/chapter-01/CloudMigrationStrategies.md)
 * [Summary](./content/chapter-01/Summary.md)
+
+## Chapter 2: Planning for the migration
+* [Introduction](./content/chapter-02/Intro.md)
+* 
+* [Summary](./content/chapter-02/Summary.md)
