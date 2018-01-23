@@ -1,0 +1,13 @@
+# Planning and executing a migration strategy
+
+## Key points
+
+* It is a journey: do not jump into the water to try how deep it is [What Is Your Cloud Migration Strategy?](https://www.cloudstrategymag.com/articles/86667-what-is-your-cloud-migration-strategy)
+
+* Done do it all by yourself: Use open source tools (Ex. [Terraform](https://www.terraform.io/)) or vendor specific tools for migration and orchestration (Ex. [Which Microsoft tools can help me migrate to Azure?](http://searchcloudcomputing.techtarget.com/answer/Which-Microsoft-tools-can-help-me-migrate-to-Azure))
+
+* Your infrastructure can be manipulated by code using API [Cloud Migration Strategies for Enterprises](https://dzone.com/articles/cloud-migration-strategies-for-enterprises)
+
+* **People and culture** are always the most significant barrier
+
+* Plan, but always expect the unexpected [How to Survive 4 Cloud Horror Story Scenarios](https://www.cio.com/article/2460967/cloud-computing/how-to-survive-4-cloud-horror-stories.html)
