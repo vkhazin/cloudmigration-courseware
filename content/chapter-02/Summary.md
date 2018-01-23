@@ -1,4 +1,4 @@
-Chapter 02: Summary
+# Chapter 02: Summary
 
 * How can you categorize systems with a cloud migration focus?
 * How many systems, you think, will end-up in the lift-and-shift category?

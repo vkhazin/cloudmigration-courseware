@@ -1,7 +1,9 @@
 # Categorizing Systems for Migration
 
 * Where do I start? What's important?
-* Do I go <a href="https://en.wikipedia.org/wiki/Software_categories" target="_blank">vertically<a/> or <a href="https://en.wikipedia.org/wiki/Multitier_architecture" target="_blank">horizontally</a>?
+* Do I go <a href="https://en.wikipedia.org/wiki/Software_categories" target="_blank">by copyright status, by vendor, by purpose</a> or <a href="https://en.wikipedia.org/wiki/Multitier_architecture" target="_blank">by layer</a>?
+* If `by layer` can I take the web-server to the cloud and leave the database on premises?
+* Distance and Geography matters, don't ignore latency as on of the common <a href="https://govcloudinsider.com/articles/2017/03/14/cloud-migration-mistakes.aspx" target="_blank">mistakes</a>
 * Maybe I should categorize my software based on a cloud <a href="https://www.ibm.com/blogs/cloud-computing/2014/01/how-to-classify-workloads-for-cloud-migration-and-decide-on-a-deployment-model/" target="_blank">migration approach</a>?
 * Is my application ready to scale-out and why are you asking?
 * Web Server Session affinity to support auto scale-out

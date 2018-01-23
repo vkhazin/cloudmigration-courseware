@@ -26,5 +26,6 @@
 
 ## Chapter 2: Planning for the migration
 * [Introduction](./content/chapter-02/Intro.md)
-* 
+* [System Categories](./content/chapter-02/SystemCategories.md)
+* [System Categories Lab](./content/chapter-02/SystemCategoriesLab.md)
 * [Summary](./content/chapter-02/Summary.md)
