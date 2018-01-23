@@ -3,9 +3,9 @@
 * Public cloud state of adoption
   * [Benefits](./PublicCloudBenefits.md)
   * [Revenue](./PublicCloudRevenue.md)
-* Motivation for public cloud
 * [Can we do it on-premise?](./CanWeDoItOnPremise.md)
   * [Public Cloud Providers offers](./PublicCloudProvidersOffers.md)
+* [Lab : Cloud vs. on-premise](./LabCloudVsOnPremise.md)
 * Considerations for different migration strategies
   * [Overview](./CloudMigrationOverview.md)
   * [Strategies](./CloudMigrationStrategies.md)
