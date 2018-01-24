@@ -10,5 +10,7 @@
   * [Overview](./CloudMigrationOverview.md)
   * [Strategies](./CloudMigrationStrategies.md)
 * Lab: IaaS, PaaS, CaaS, FaaS, and DaaS
-* Planning and executing a migration strategy
+* Planning and executing migration
+  * [Overview](./PlanningAndExecutingMigrationOverview.md)
+  * [Key points](./PlanningAndExecutingMigrationKeyPoints.md)
 * Getting ready for the adoption and migration setbacks
