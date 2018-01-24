@@ -38,7 +38,18 @@
   * Highlight that VM is not enough: network, load-balancers, firewalls, high availability and etc are essential as well
   * Pay a special attention to the ability to create an entire data centre with an automation such as terraform
 
-
+### Lab: Cloud vs. on-premises
+  * The lab is to question the wisdom whether public cloud is pretty much the same as on premises deployment with infra managed by a third party
+  * Enumerate go-live activities related to <a href="https://en.wikipedia.org/wiki/Systems_development_life_cycle" target="_blank">SDLC</a> after the code development is complete. Likely items:
+    * Hardware planning and provisioning: what if there is no more storage left on the SAN?
+    * Preparation of a deployment package, what if the build server is down?
+    * What is the process of build verification and re-deployment, if needs to be?
+    * Firewall requests, is there a single or multiple firewall involved, what happens when firewall is mis-configured?
+    * How do you roll-out A/B testing, if not using it today could you with the on-premises deployment model?
+    * What's required to configure a DNS name and how mis-configurations are resolved?
+  * List anticipated and actual time-frames for the activities listed
+  * Envision an unanticipated spike in traffic, how do you recover with an on-premises deployment?
+  
 ### Considerations for different migration strategies
   * List migration strategies as described by leading cloud providers Aws and Azure
   * Outline pros and cons of each approach
@@ -69,9 +80,66 @@
   * Borrow ideas from cloud migration webinars/articles
   * Emphasize with reference that there is no one size-fits-all strategy
   
+### Lab: Current vs. Future state and possible approaches
+  * Take a selected application offered by the students
+  * Build a deployment layout:
+    * How many application tiers?
+    * How many servers to allocate for each tier?
+    * Can the tier support auto-scaling, any in-memory state or a sticky session?
+    * Are there any opportunities to leverage PaaS, FaaS, or DaaS in the future
+  
 ### Getting ready for the adoption and migration setbacks
-  * Big-bang approach is unforgiving for mistakes, iterative and agile maybe more pragmatic
-  * Things will blow as with every new major initiative
-  * Reference common failures
-  * Provide links to forums and 
+  * Big-bang approach is quite unforgiving for mistakes, iterative and agile maybe a more pragmatic direction
+  * Things will blow as with every new major initiative - don't get discouraged
+  * Reference common failures, small oversights vs. a big disaster
+  * Provide links to forums and discussions
   * Find a failure story with a recovery plan to ignite confidence
+  
+## Chapter-03: Application Architecture
+
+### Resource usage analysis
+  * Importance of resource utilization analysis: expected vs. actual
+  * General practice of resource utilization: io, cpu, memory, network, others
+  * Linux tools for resource utilization analysis - don't pick a silver bullet, suggest built-in first, and additional second
+  * Windows tools for resource utilization analysis - don't pick a silver bullet, suggest built-in first, and additional second
+  * _TDD (test-driven-development) can we apply it to application testing for the purpose of migration as per customer desire?_ 
+  * Lab: common tools for resource utilization:
+    * Find a sample easy-to-install Linux server application, web-server & a database to reflect on a common pattern of business system
+    * The application should have a web end-point that can be used for stress testing
+    * Explain the application at the hight level by referencing vendor documentation instead of repeating the documentation in slides
+    * Use a JMeter (if you have another tool - please suggest) to create a stress test
+    * Walk through creating the stress test
+    * Run the stress test to generate load
+    * Use the tools explained earlier in the chapter to monitor the application under the stress and to record the finding
+    * Maybe a Google Sheet shared with everyone in the class to see each other findings for the interactivity purposes
+    * Important is to find out what is the real application resource pressures to assist decision on instance type to select
+    * Discuss the discoveries made, whether it was consistent with a guessed resource utilization
+    * Send the students to links with different instances types on different cloud providers to explore options and costs
+  * Outline different disk storage available from Azure and from Oracle cloud
+  * Guaranteed performance IO and correlation between volume and speed, if any on Azure and on Oracle Clouds
+  * Lab: Instance types and and IO considerations
+    * Find an easy to install application that generates and measures disk operations under stress
+    * Install the app on Linux and on Windows
+    * Run the app the record a base line
+    * Change the volume type and/or volume size to demonstrate impact on the disk io performance
+    * Prepare a script that will make the system to run out of space to bring it to a practical halt
+    * Provide instructions for Azure Cloud how to recover from such a situation on Windows and on Linux
+  * A bad common practice is to assume that network is always available
+  * Elaborate on the common application failure patterns: <a href="https://en.wikipedia.org/wiki/Cascading_failure">Cascading Failure</a> with emphasis on network connectivity
+  * Lab: What to do when I cannot connect?
+    * With the web-db application installed before
+    * Run the stress test using JMeter to record a baseline
+    * Emulate db connectivity failure, such as stopping the service or changing listener port
+    * Run the stress test to demonstrate the response time/error rate when there is a connectivity problem
+    * Reset and then record the JMeter stats to compare to the baseline
+    * Bring the db back while running the stress test
+    * Reset and then record the JMeter stats to compare to the baseline and to the failure state
+    * How long it takes for the application to come back to the normal state
+    * Repeat the test for taking the db down for a short period of time (maybe couple of iteration to find the sweet spot) to demo that recover can be a considerably longer than the actual downtime due to a typical application design pattern with a perfect network connectivity at all times
+  * A common approach for caching and session management: in-proc, increasing memory demands on each instance, duplicating the cache, and requiring a sticky sessions. With such a approach auto-scaling out and back-in is a daunting task. Common resolution is to create an adapter to leverage caching service available on the public cloud and to externalize the session management.
+  * Common pattern of building an application is to expect that every dependent component is available at all times and is performing within the well at all times. There is an alternative to a perfect world planning: https://docs.microsoft.com/en-us/azure/architecture/patterns/category/resiliency. Review the patterns briefly - too much information will get the students lost
+  * Lab: Common design patterns
+    * Maybe use a google sheet to list the common design problems on the left and common solutions on the right
+    * Every student/team can create a copy of the sheet or a copy of a tab in the same sheet
+    * Ask students to present their answers on line-by-line basis to force a discussion and possible disagreements
+    * The idea to drag the student out of the silos to keep them awake and engaged
