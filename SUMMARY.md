@@ -23,6 +23,7 @@
 * [Lab : Cloud vs. on-premise](./content/chapter-01/LabCloudVsOnPremise.md)
 * [Cloud Migrations Overview](./content/chapter-01/CloudMigrationOverview.md)
 * [Cloud Migration Strategies](./content/chapter-01/CloudMigrationStrategies.md)
+* [Lab: IaaS, PaaS, CaaS, FaaS, and DaaS](/content/chapter-01/LabStarAsAService.md)
 * [Planning and executing migration](./content/chapter-01/PlanningAndExecutingMigrationOverview.md)
   * [Key points](./content/chapter-01/PlanningAndExecutingMigrationKeyPoints.md)
 * [Summary](./content/chapter-01/Summary.md)
