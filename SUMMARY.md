@@ -28,4 +28,6 @@
 * [Introduction](./content/chapter-02/Intro.md)
 * [System Categories](./content/chapter-02/SystemCategories.md)
 * [System Categories Lab](./content/chapter-02/SystemCategoriesLab.md)
+* [Dependencies](./content/chapter-02/Dependencies.md)
+* [Compatibility Challenges]./content/chapter-02/CompatibilityChallenges.md)
 * [Summary](./content/chapter-02/Summary.md)
