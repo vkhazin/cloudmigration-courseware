@@ -9,6 +9,7 @@
 * Materials contain external links which may become broken
 * Labs are mini-hackathons, not step-by-step instructions, UI and API change often - challenges are expected
 * Questions, open discussions, and comments are encouraged
+* Instructor strives to let you answer or to find an answer rather than shining with their own knowledge 
 * Keep it professional and polite
 * Let's have fun!
 * Any questions before we continue?

@@ -3,3 +3,4 @@
 * Categorizing systems before migration
 * Identifying system dependencies
 * Cloud compatibility challenges
+* Instance types and Regions
