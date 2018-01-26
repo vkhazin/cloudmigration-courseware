@@ -26,6 +26,7 @@
 * [Lab: IaaS, PaaS, CaaS, FaaS, and DaaS](/content/chapter-01/LabStarAsAService.md)
 * [Planning and executing migration](./content/chapter-01/PlanningAndExecutingMigrationOverview.md)
   * [Key points](./content/chapter-01/PlanningAndExecutingMigrationKeyPoints.md)
+* [Lab : Current vs. Future state and possible approaches](./content/chapter-01/LabCurrentVsFutureState.md)
 * [Summary](./content/chapter-01/Summary.md)
 
 ## Chapter 2: Planning for the migration
