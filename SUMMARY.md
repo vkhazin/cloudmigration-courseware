@@ -16,8 +16,8 @@
 
 ## Chapter 1: Cloud Migration, Why and How ##
 * [Introduction](./content/chapter-01/Intro.md)
-  * [Public Cloud Benefits](./content/chapter-01/PublicCloudBenefits.md)
-  * [Public Cloud Revenue](./content/chapter-01/PublicCloudRevenue.md)
+* [Public Cloud Benefits](./content/chapter-01/PublicCloudBenefits.md)
+* [Public Cloud Revenue](./content/chapter-01/PublicCloudRevenue.md)
 * [Can we do it on-premise?](./content/chapter-01/CanWeDoItOnPremise.md)
   * [Public Cloud Providers offers](./content/chapter-01/PublicCloudProvidersOffers.md)
 * [Lab : Cloud vs. on-premise](./content/chapter-01/LabCloudVsOnPremise.md)
@@ -34,5 +34,5 @@
 * [System Categories](./content/chapter-02/SystemCategories.md)
 * [System Categories Lab](./content/chapter-02/SystemCategoriesLab.md)
 * [Dependencies](./content/chapter-02/Dependencies.md)
-* [Compatibility Challenges]./content/chapter-02/CompatibilityChallenges.md)
+* [Compatibility Challenges](./content/chapter-02/CompatibilityChallenges.md)
 * [Summary](./content/chapter-02/Summary.md)
