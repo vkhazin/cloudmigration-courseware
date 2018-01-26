@@ -5,7 +5,8 @@
   "dependencies": {
     "gitbook": "^3.2.2",
     "gitbook-cli": "^2.3.2",
-    "gitbook-plugin-footer": "^0.0.6"
+    "gitbook-plugin-footer": "^0.0.6",
+    "surge": "^0.19.0"
   },
   "author": "Vlad Khazin & Darien Martinez",
   "license": "by-nc-sa"
