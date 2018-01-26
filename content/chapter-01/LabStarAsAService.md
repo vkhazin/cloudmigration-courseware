@@ -1,6 +1,6 @@
 # Lab: IaaS, PaaS, CaaS, FaaS, and DaaS
 
-* Login to the cloud provider using the account you received the instructor's email
+* Login into the cloud provider using the account info you received in the instructor's email
 
 
 * On your console, look around, and see what they offer
