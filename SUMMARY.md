@@ -35,4 +35,8 @@
 * [System Categories Lab](./content/chapter-02/SystemCategoriesLab.md)
 * [Dependencies](./content/chapter-02/Dependencies.md)
 * [Compatibility Challenges](./content/chapter-02/CompatibilityChallenges.md)
+* [Compatibility Challenges Lab](./content/chapter-02/CompatibilityChallengesLab.md)
+* [Instance Types](./content/chapter-02/InstanceTypes.md)
+* [Regions](./content/chapter-02/Regions.md)
+* [Instance Types Lab](./content/chapter-02/InstanceTypesLab.md)
 * [Summary](./content/chapter-02/Summary.md)
