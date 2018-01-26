@@ -62,7 +62,7 @@
 * Assessing cloud compatibility challenges
 * Lab: Common dependency challenges and solutions
 * Instance types: bare metal, balanced, high CPU, high Memory, and high IO
-* Cloud Provider options: Azure vs Oracle
+* Cloud Provider options: Azure vs. Oracle
 * Lab: Creating and configuring first instance on Public Cloud 
 
 ## Application Architecture
