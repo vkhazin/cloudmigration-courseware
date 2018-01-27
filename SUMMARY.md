@@ -40,3 +40,13 @@
 * [Regions](./content/chapter-02/Regions.md)
 * [Instance Types Lab](./content/chapter-02/InstanceTypesLab.md)
 * [Summary](./content/chapter-02/Summary.md)
+
+## Chapter 4: Networking
+* [Introduction](./content/chapter-04/Intro.md)
+* [IP address space allocation](./content/chapter-04/IPAddresses.md)
+* [IPv4 Addresses Shortage](./content/chapter-04/IPv4AddressesShortage.md)
+* [Network Design Patterns Lab](./content/chapter-04/NetworkDesignLab.md)
+* [Firewall Management](./content/chapter-04/FirewallManagement.md)
+* [VPN Management](./content/chapter-04/VPNManagement.md)
+* [Summary](./content/chapter-04/Summary.md)
+
