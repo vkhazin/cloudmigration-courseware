@@ -4,7 +4,7 @@
 
 * Course materials can be accessed [online1](https://vkhazin.gitbooks.io/cloudmigration-courseware/content/) or [online2](http://cloudmigration-courseware.surge.sh/)
 * Course materials can also be downloaded in pdf or pub format from <a href="https://www.gitbook.com/book/vkhazin/cloudmigration-courseware/details" target="_blank">Gitbook</a>
-* If you did not have a chance to fill-out <a target="_blank" href="">pre-course survey, please do so now</a>
+* If you did not have a chance to fill-out <a href="" target="_blank" href="">pre-course survey, please do so now</a>
 * If you have not provided your public ssh key via email to configure access to your private sandbox, please do so now
   * <a href="https://docs.joyent.com/public-cloud/getting-started/ssh-keys/generating-an-ssh-key-manually" target="_blank">How to generate public/private key</a>
   * Email public key to the instructor
