@@ -40,3 +40,8 @@
 * [Regions](./content/chapter-02/Regions.md)
 * [Instance Types Lab](./content/chapter-02/InstanceTypesLab.md)
 * [Summary](./content/chapter-02/Summary.md)
+
+## Chapter 03: Application Architecture
+* [Introduction](./content/chapter-03/Intro.md)
+* [Application metrics](./content/chapter-03/ApplicationMetrics.md)
+* [Summary](./content/chapter-03/Summary.md)
