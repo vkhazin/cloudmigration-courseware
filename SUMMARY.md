@@ -48,5 +48,6 @@
 * [Network Design Patterns Lab](./content/chapter-04/NetworkDesignLab.md)
 * [Firewall Management](./content/chapter-04/FirewallManagement.md)
 * [VPN Management](./content/chapter-04/VPNManagement.md)
+* [Network Management Lab](./content/chapter-04/NetworkManagementLab.md)
 * [Summary](./content/chapter-04/Summary.md)
 

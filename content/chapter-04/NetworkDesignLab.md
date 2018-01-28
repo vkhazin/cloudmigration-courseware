@@ -9,8 +9,8 @@
 
 * Login into Cloud Provider portal
 * Create a new network, subnet, and etc.
-* Discuss the options popping up to understand the implications of decisions made
-* Hhow isolated dev vs. test. vs. live networks and assets should be?
+* Discuss the options popping up to understand the implications of decisions being made
+* How isolated dev vs. test. vs. live networks and assets should be?
 * Consider multi-region deployment model - any impact on a IP address space design?
 * How do you know what address spaces are already in use by your organization and it's interconnected partners?
 * How do we evolve balancing a limited network addresses space in a high paced environment?
