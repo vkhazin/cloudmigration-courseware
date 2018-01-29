@@ -143,3 +143,6 @@
     * Every student/team can create a copy of the sheet or a copy of a tab in the same sheet
     * Ask students to present their answers on line-by-line basis to force a discussion and possible disagreements
     * The idea to drag the student out of the silos to keep them awake and engaged
+    
+## Chapter-05:
+  * Discuss tags

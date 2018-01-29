@@ -1,4 +1,4 @@
-# Identifying System Dependencies
+# Identifying Dependencies
 
 * "Hardware": selecting the appropriate [instance type:](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/sizes?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json) CPU, Memory, Storage, GPU,  others?
 * Operating System Configurations, e.g.: memory swapping enabled or disabled, NoSql = no swapping, Oracle Rdbms = yes swapping

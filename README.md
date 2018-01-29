@@ -58,9 +58,9 @@
 
 * Categorizing systems before migration
 * Lab: Select few existing and/or future systems for an open discussion
-* Identifying system dependencies
+* Identifying dependencies
 * Assessing cloud compatibility challenges
-* Lab: Common dependency challenges and solutions
+* Lab: Common compatibility challenges and solutions
 * Instance types: bare metal, balanced, high CPU, high Memory, and high IO
 * Cloud Provider options: Azure vs. Oracle
 * Lab: Creating and configuring first instance on Public Cloud 
