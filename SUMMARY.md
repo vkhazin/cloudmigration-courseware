@@ -44,8 +44,8 @@
 ## Chapter 03: Application Architecture
 * [Introduction](./content/chapter-03/Intro.md)
 * [Application metrics](./content/chapter-03/ApplicationMetrics.md)
+  * [Linux System Metrics](./content/chapter-03/LinuxSystemMetrics.md)
 * [Summary](./content/chapter-03/Summary.md)
-
 ## Chapter 4: Networking
 * [Introduction](./content/chapter-04/Intro.md)
 * [Virtual Networks & Data Centers](./content/chapter-04/VirtualNetworks.md)
