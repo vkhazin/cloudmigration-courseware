@@ -43,6 +43,7 @@
 
 ## Chapter 4: Networking
 * [Introduction](./content/chapter-04/Intro.md)
+* [Virtual Networks & Data Centers](./content/chapter-04/VirtualNetworks.md)
 * [IP address space allocation](./content/chapter-04/IPAddresses.md)
 * [IPv4 Addresses Shortage](./content/chapter-04/IPv4AddressesShortage.md)
 * [Network Design Patterns Lab](./content/chapter-04/NetworkDesignLab.md)
