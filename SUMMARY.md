@@ -52,3 +52,8 @@
 * [Network Management Lab](./content/chapter-04/NetworkManagementLab.md)
 * [Summary](./content/chapter-04/Summary.md)
 
+## Chapter 5: Operation and Monitoring
+* [Introduction](./content/chapter-05/Intro.md)
+* [Deployment Automation](./content/chapter-05/DeploymentAutomation.md.md)
+* [Deployment Automation Lab](./content/chapter-05/DeploymentAutomation.md.md)
+* [Summary](./content/chapter-05/Summary.md)
