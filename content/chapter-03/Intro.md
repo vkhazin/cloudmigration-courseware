@@ -2,6 +2,7 @@
 
 * [Application metrics](./ApplicationMetrics.md)
   * [Linux System Metrics](./LinuxSystemMetrics.md)
+  * [Windows System Metrics](./WindowsSystemMetrics.md)
 * Lab: common tools for application metrics
 * Storage space and IO speed
 * Lab: Instance types and and IO considerations
