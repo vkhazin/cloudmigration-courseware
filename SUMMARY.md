@@ -59,6 +59,7 @@
 
 ## Chapter 5: Operation and Monitoring
 * [Introduction](./content/chapter-05/Intro.md)
-* [Deployment Automation](./content/chapter-05/DeploymentAutomation.md.md)
-* [Deployment Automation Lab](./content/chapter-05/DeploymentAutomation.md.md)
+* [Deployment Automation](./content/chapter-05/DeploymentAutomation.md)
+* [Deployment Automation Lab](./content/chapter-05/DeploymentAutomation.md)
+* [Configuration Mangement](./content/chapter-05/ConfigurationManagement.md)
 * [Summary](./content/chapter-05/Summary.md)
