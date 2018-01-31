@@ -44,6 +44,9 @@
 ## Chapter 03: Application Architecture
 * [Introduction](./content/chapter-03/Intro.md)
 * [Application metrics](./content/chapter-03/ApplicationMetrics.md)
+* [Storage space and IO speed](./content/chapter-03/StorageAndIOSpeed.md)
+  * [Azure Cloud Storage](./content/chapter-03/AzureCloudStorage.md)
+  * [Oracle Cloud Storage](./content/chapter-03/OracleCloudStorage.md)
 * [Summary](./content/chapter-03/Summary.md)
 
 ## Chapter 4: Networking
