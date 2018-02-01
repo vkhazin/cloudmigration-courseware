@@ -12,6 +12,15 @@
 * we are looking for lab/content to reflect Azure or Oracle Cloud (not Amazon Web Services)
 * Also, would it be possible for Vlad to specifically include or call out Test Driven Design (TDD) principles in this training, perhaps in the lab work? I can bring a call together with our internal SME on TDD for this if helpful. We are looking to incorporate TDD across many of our offerings, even if only in a lightweight way, to influence adoption.
 
+# Per Cisco:
+
+* more AWS/Azure oriented probably with some Meraki influences, Google Cloud
+* Private Cloud Solutions
+* Cloud Managed Solutions
+* Hybrid & Public Cloud Solutions
+* All which can include Application Management, Business Performance, Actionable Intelligence & all with a Secure Environment with Software as a Service (Saas) & Platform as a Service (PaaS).
+
+ 
 ## General
   * Make sure to hyperlink your points using ```<a href="..." target="_blank"></a>``` for instructors and students  
   * Diagrams better than words, but are more time consuming to produce, make sure not to violate copyrights  
