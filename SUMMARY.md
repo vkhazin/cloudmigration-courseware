@@ -44,6 +44,8 @@
 ## Chapter 03: Application Architecture
 * [Introduction](./content/chapter-03/Intro.md)
 * [Application metrics](./content/chapter-03/ApplicationMetrics.md)
+  * [Linux System Metrics](./content/chapter-03/LinuxSystemMetrics.md)
+  * [Windows System Metrics](./content/chapter-03/WindowsSystemMetrics.md)
 * [Storage space and IO speed](./content/chapter-03/StorageAndIOSpeed.md)
   * [Azure Cloud Storage](./content/chapter-03/AzureCloudStorage.md)
   * [Oracle Cloud Storage](./content/chapter-03/OracleCloudStorage.md)
