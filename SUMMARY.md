@@ -44,6 +44,8 @@
 ## Chapter 03: Application Architecture
 * [Introduction](./content/chapter-03/Intro.md)
 * [Application metrics](./content/chapter-03/ApplicationMetrics.md)
+  * [Linux System Metrics](./content/chapter-03/LinuxSystemMetrics.md)
+  * [Windows System Metrics](./content/chapter-03/WindowsSystemMetrics.md)
 * [Summary](./content/chapter-03/Summary.md)
 
 ## Chapter 4: Networking
