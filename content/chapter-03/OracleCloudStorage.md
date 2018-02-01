@@ -5,7 +5,7 @@
 * [Oracle Cloud Infrastructure Block Volumes](https://docs.us-phoenix-1.oraclecloud.com/Content/Block/Concepts/overview.htm)
   * High Performance
   * Boot Volumes
-  * Easily Scale Up or Down
+  * Easily Scales Up or Down
   
 
 * [Oracle Cloud Infrastructure Object Storage](https://docs.us-phoenix-1.oraclecloud.com/Content/Object/Concepts/overview.htm)
