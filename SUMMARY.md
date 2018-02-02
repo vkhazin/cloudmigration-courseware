@@ -46,6 +46,7 @@
 * [Application metrics](./content/chapter-03/ApplicationMetrics.md)
   * [Linux System Metrics](./content/chapter-03/LinuxSystemMetrics.md)
   * [Windows System Metrics](./content/chapter-03/WindowsSystemMetrics.md)
+* [Intermittent connectivity issues](./content/chapter-03/IntermittentConnectivity.md)
 * [Summary](./content/chapter-03/Summary.md)
 
 ## Chapter 4: Networking
