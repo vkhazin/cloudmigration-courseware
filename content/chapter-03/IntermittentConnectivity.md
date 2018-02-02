@@ -14,4 +14,4 @@
 
 * Notice almost all of them, except **There is one administrator**, are communication and/or network related problems
 
-* More on these fallacies could be found on [this tech talk](https://blog.fogcreek.com/eight-fallacies-of-distributed-computing-tech-talk/)
+* More about these fallacies could be found [here](https://blog.fogcreek.com/eight-fallacies-of-distributed-computing-tech-talk/)
