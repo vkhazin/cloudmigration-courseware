@@ -7,7 +7,9 @@
 =======
 >>>>>>> 155a376a8bb14ceb4665d83584df961f5dcad698
 * Lab: common tools for application metrics
-* Storage space and IO speed
+* [Storage space and IO speed](./StorageAndIOSpeed.md)
+  * [Azure Cloud Storage](./AzureCloudStorage.md)
+  * [Oracle Cloud Storage](./OracleCloudStorage.md)
 * Lab: Instance types and and IO considerations
 * Intermittent connectivity issues
 * Lab: What to do when I cannot connect?
