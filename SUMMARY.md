@@ -49,6 +49,7 @@
 * [Storage space and IO speed](./content/chapter-03/StorageAndIOSpeed.md)
   * [Azure Cloud Storage](./content/chapter-03/AzureCloudStorage.md)
   * [Oracle Cloud Storage](./content/chapter-03/OracleCloudStorage.md)
+* [Intermittent connectivity issues](./content/chapter-03/IntermittentConnectivity.md)
 * [Summary](./content/chapter-03/Summary.md)
 
 ## Chapter 4: Networking
