@@ -10,6 +10,5 @@
 * Lab: Instance types and and IO considerations
 * [Intermittent connectivity issues](./IntermittentConnectivity.md)
 * Lab: What to do when I cannot connect?
-* Caching and Session Management
-* Resilience of software design
+* [Resilient Software Design](Resilience.md)
 * Lab: Common design patterns
