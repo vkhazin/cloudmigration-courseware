@@ -1,4 +1,4 @@
-# Resilience of software design
+# Resilient Software Design
 
 * [What is resilience?](https://en.oxforddictionaries.com/definition/resilience)
   * The capacity to recover quickly from difficulties; toughness.

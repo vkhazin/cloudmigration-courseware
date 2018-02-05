@@ -50,7 +50,7 @@
   * [Azure Cloud Storage](./content/chapter-03/AzureCloudStorage.md)
   * [Oracle Cloud Storage](./content/chapter-03/OracleCloudStorage.md)
 * [Intermittent connectivity issues](./content/chapter-03/IntermittentConnectivity.md)
-* [Resilience of software design](./content/chapter-03/Resilience.md)
+* [Resilient Software Design](./content/chapter-03/Resilience.md)
 * [Summary](./content/chapter-03/Summary.md)
 
 ## Chapter 4: Networking
