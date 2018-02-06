@@ -1,6 +1,5 @@
 # Each bullet translates into a couple of slides
 
-
 # Gitbook Setup to author the materials:
 * Install node.js
 * Install packages: ```npm install```
