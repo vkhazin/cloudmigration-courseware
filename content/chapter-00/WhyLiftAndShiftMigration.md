@@ -1,4 +1,4 @@
-# Chapter 01: Introduction Why Lift-And-Shift Migration #
+# Why Lift-And-Shift Migration
 
 * Public cloud state of adoption
 * Motivation for public cloud
@@ -6,3 +6,6 @@
 * Considerations for different migration strategies
 * Planning and executing a migration strategy
 * Getting ready for the adoption and migration setbacks
+
+
+

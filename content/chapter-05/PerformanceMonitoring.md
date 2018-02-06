@@ -1,6 +1,6 @@
 # Monitoring
 
-* More than one perspective: performance, logs management, auditing, alerting, any others from your end?
+* More than one perspective: performance, logs management, auditing, alerting, any other?
 
 ## Performance Monitoring
 

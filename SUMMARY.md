@@ -78,7 +78,7 @@
 * [Configuration Management](./content/chapter-05/ConfigurationManagement.md)
 * [Configuration Options](./content/chapter-05/ConfigManagementOptions.md)
 * [Configuration Management Lab](./content/chapter-05/ConfigurationManagementLab.md)
-* [Monitoring](./content/chapter-05/Monitoring.md)
+* [Performance Monitoring](/./content/chapter-05/PerformanceMonitoring.md)
 * [Logs Management](/./content/chapter-05/LogsManagement.md)
 * [Monitoring Lab](./content/chapter-05/MonitoringLab.md)
 * [Summary](./content/chapter-05/Summary.md)
