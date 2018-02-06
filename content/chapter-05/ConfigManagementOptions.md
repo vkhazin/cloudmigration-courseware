@@ -9,4 +9,4 @@
 * A comparison from [stachshare.io](https://stackshare.io/stackups/ansible-vs-puppet-vs-salt)
 * [Consul](https://www.consul.io/), [etcd](https://github.com/coreos/etcd), and [Zookeeper](https://zookeeper.apache.org/): configuration, service discovery, and distributed storage
 * A comparison from [stackshare.io](https://stackshare.io/stackups/consul-vs-zookeeper-vs-etcd)
-* A down-to-earth option using [AWS S3](https://aws.amazon.com/s3/), [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/), or external database e.g. [restdb.io](https://restdb.io/)
+* A down-to-earth option using [AWS S3](https://aws.amazon.com/s3/), [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/), or an external database e.g. [restdb.io](https://restdb.io/)
