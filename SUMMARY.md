@@ -80,6 +80,7 @@
 * [Configuration Management Lab](./content/chapter-05/ConfigurationManagementLab.md)
 * [Performance Monitoring](/./content/chapter-05/PerformanceMonitoring.md)
 * [Logs Management](/./content/chapter-05/LogsManagement.md)
+* [Auditing](/./content/chapter-05/Auditing.md)
 * [Monitoring Lab](./content/chapter-05/MonitoringLab.md)
 * [Summary](./content/chapter-05/Summary.md)
 
