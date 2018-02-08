@@ -125,7 +125,7 @@
     * Send the students to links with different instances types on different cloud providers to explore options and costs
   * Outline different disk storage available from Azure and from Oracle cloud
   * Guaranteed performance IO and correlation between volume and speed, if any on Azure and on Oracle Clouds
-  * Lab: Instance types and and IO considerations
+  * Lab: Instance types and IO considerations
     * Find an easy to install application that generates and measures disk operations under stress
     * Install the app on Linux and on Windows
     * Run the app the record a base line
