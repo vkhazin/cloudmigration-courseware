@@ -1,10 +1,12 @@
 # Each bullet translates into a couple of slides
 
-# Gitbook Setup to author the materials:
-* Install node.js
-* Install packages: ```npm install```
-* To run: ```./node_modules/.bin/gitbook build```
-* To access from browser: ```http://domain-name:4000```
+# Author Setup
+* Install node.js and npm
+* Clone the repository: ```git clone https://github.com/vkhazin/cloudmigration-courseware.git```
+* Install npm dependencies: ```npm install```
+* Install gitbook: ```sudo npm install -g gitbook-cli```
+* To lunch for preview purposes: ```gitbook serve```
+* The repository is auto-deployed to gitbook as a primary and to surge.sh as a secondary target for publishing
 
 # Per Gap:
 

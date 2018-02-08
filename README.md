@@ -112,11 +112,3 @@
 # Fine Print
 * Labs refer to a hand-on exercise, to a group discussion, or to a guided self-study
 * Lab instructions are general guidance as cloud providers interface and options are frequently updated
-
-# Author Setup
-* Install node.js and npm
-* Clone the repository: ```git clone https://github.com/vkhazin/cloudmigration-courseware.git```
-* Install npm dependencies: ```npm install```
-* Install gitbook: ```sudo npm install -g gitbook-cli```
-* To lunch for preview purposes: ```gitbook serve```
-* The repository is auto-deployed to gitbook as a primary and to netlify as a secondary target for online publishing
