@@ -5,7 +5,7 @@
 * Highlight common pitfalls of highly available system design on the cloud
 * Walk through readily-available options for high-availability support on public cloud
 
-## Stesp
+## Steps
 
 * Launch an application with a front-end and a back-end
 * Simulate a failure to demonstrate an outage

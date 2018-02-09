@@ -91,5 +91,6 @@
 * [Multi-Region/Zone Availability](./content/chapter-06/MultiLocation.md)
 * [Multi-Region/Zone Availability Lab](./content/chapter-06/MultiLocationLab.md)
 * [Preparing for Cloud Outage](./content/chapter-06/CloudOutage.md)
+* [Cloud Outage Options](./content/chapter-06/CloudOutageOptions.md)
 * [Preparing for Cloud Outage Lab](./content/chapter-06/CloudOutageLab.md)
 * [Summary](./content/chapter-06/Summary.md)

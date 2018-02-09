@@ -11,3 +11,4 @@
   * Don't over commit to any option before you went through the full life-cycle for more then couple of times
   * Between similar options select the more interoperable and with a larger 3rd party echo system
   * Don't look for a sliver bullet, the odds are you will end-up with a number of tools rather than with a single universal solution
+* And one more point: number of deployed instances will be growing, [tagging](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-using-tags) is a facility to find your instances after the deployment
