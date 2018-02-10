@@ -51,6 +51,7 @@
 * [Application metrics](./content/chapter-03/ApplicationMetrics.md)
   * [Linux System Metrics](./content/chapter-03/LinuxSystemMetrics.md)
   * [Windows System Metrics](./content/chapter-03/WindowsSystemMetrics.md)
+* [Lab: common tools for system metrics](./content/chapter-03/SystemMetricsLab.md)
 * [Storage space and IO speed](./content/chapter-03/StorageAndIOSpeed.md)
   * [Azure Cloud Storage](./content/chapter-03/AzureCloudStorage.md)
   * [Oracle Cloud Storage](./content/chapter-03/OracleCloudStorage.md)
