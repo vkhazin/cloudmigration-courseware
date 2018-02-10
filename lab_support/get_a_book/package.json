@@ -1,0 +1,11 @@
+{
+  "name": "get_a_book",
+  "version": "1.0.0",
+  "description": "Simple API returning a file over http.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Darien Martinez",
+  "license": "MIT"
+}
