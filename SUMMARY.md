@@ -55,7 +55,7 @@
 * [Storage space and IO speed](./content/chapter-03/StorageAndIOSpeed.md)
   * [Azure Cloud Storage](./content/chapter-03/AzureCloudStorage.md)
   * [Oracle Cloud Storage](./content/chapter-03/OracleCloudStorage.md)
-* [Lab: Instance types and and IO considerations](./content/chapter-03/InstanceTypeAndIOSpeedLab.md)
+* [Lab: Instance types and IO considerations](./content/chapter-03/InstanceTypeAndIOSpeedLab.md)
 * [Intermittent connectivity issues](./content/chapter-03/IntermittentConnectivity.md)
 * [Resilient Software Design](./content/chapter-03/Resilience.md)
 * [Summary](./content/chapter-03/Summary.md)

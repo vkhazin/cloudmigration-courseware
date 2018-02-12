@@ -7,7 +7,7 @@
 * [Storage space and IO speed](./StorageAndIOSpeed.md)
   * [Azure Cloud Storage](./AzureCloudStorage.md)
   * [Oracle Cloud Storage](./OracleCloudStorage.md)
-* [Lab: Instance types and and IO considerations](./InstanceTypeAndIOSpeedLab.md)
+* [Lab: Instance types and IO considerations](./InstanceTypeAndIOSpeedLab.md)
 * [Intermittent connectivity issues](./IntermittentConnectivity.md)
 * Lab: What to do when I cannot connect?
 * [Resilient Software Design](Resilience.md)
