@@ -15,6 +15,7 @@
 
 # Per Cisco:
 
+* Planning for migration chapter: sprinkle aws and google
 * more AWS/Azure oriented probably with some Meraki influences, Google Cloud
 * Private Cloud Solutions
 * Cloud Managed Solutions

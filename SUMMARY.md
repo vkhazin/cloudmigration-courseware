@@ -84,7 +84,7 @@
 * [Monitoring Lab](./content/chapter-05/MonitoringLab.md)
 * [Summary](./content/chapter-05/Summary.md)
 
-## Chapter 5: Operation and Monitoring
+## Chapter 6: High-Availability and Disaster Recovery
 * [Introduction](./content/chapter-06/Intro.md)
 * [Backup and Restore Options](./content/chapter-06/BackRestore.md)
 * [Backup and Restore Lab](./content/chapter-06/BackRestore.md)
@@ -94,3 +94,7 @@
 * [Cloud Outage Options](./content/chapter-06/CloudOutageOptions.md)
 * [Preparing for Cloud Outage Lab](./content/chapter-06/CloudOutageLab.md)
 * [Summary](./content/chapter-06/Summary.md)
+
+## Chapter 7: Course Summary
+* [Summary](./content/chapter-07/CourseSummary.md)
+* [Thank you!](./content/chapter-07/ThankYou.md)
