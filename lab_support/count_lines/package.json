@@ -1,0 +1,11 @@
+{
+  "name": "count_lines",
+  "version": "1.0.0",
+  "description": "Count the lines on an http request returning text",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js 10000"
+  },
+  "author": "Darien Martinez",
+  "license": "MIT"
+}
