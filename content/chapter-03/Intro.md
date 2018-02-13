@@ -3,10 +3,11 @@
 * [Application metrics](./ApplicationMetrics.md)
   * [Linux System Metrics](./LinuxSystemMetrics.md)
   * [Windows System Metrics](./WindowsSystemMetrics.md)
-* [Lab: common tools for system metrics](./SystemMetricsLab.md)
+* [Lab: Tools for Measuring Resource Utilization](./SystemMetricsLab.md)
 * [Storage space and IO speed](./StorageAndIOSpeed.md)
   * [Azure Cloud Storage](./AzureCloudStorage.md)
   * [Oracle Cloud Storage](./OracleCloudStorage.md)
+  * [AWS Storage](https://aws.amazon.com/products/storage/)
 * [Lab: Instance types and IO considerations](./InstanceTypeAndIOSpeedLab.md)
 * [Intermittent connectivity issues](./IntermittentConnectivity.md)
 * Lab: What to do when I cannot connect?
