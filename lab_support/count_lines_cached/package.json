@@ -1,0 +1,11 @@
+{
+  "name": "count_lines_cached",
+  "version": "1.0.0",
+  "description": "Count the lines on an http request returning text. Responding with a cached result if the service is not available",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js 10000"
+  },
+  "author": "Darien Martinez",
+  "license": "MIT"
+}
