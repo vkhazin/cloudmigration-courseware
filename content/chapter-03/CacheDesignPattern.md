@@ -21,7 +21,7 @@
 
 * Test procedure
   * Test `count_lines` application from there:
-    * `curl http://<count_lines instance public ip or dns>:10000`. You should receive something similar to this:
+    * `curl http://<count_lines instance public ip or dns>:10000` Expected output:
 ```
 {
   "counter": 40008,
@@ -32,6 +32,6 @@
   * Check again `count_lines`, but this time with -v on the `curl` command:
     * `curl http://<count_lines instance public ip or dns>:10000 -v`    
   * What is the outcome of the test? 
-  * Did something change on the data returning from the service?
+  * Did anything change with data returned from the service?
   * Which other situations we could encounter on this services interaction?
   * How could we apply the presented patterns?
