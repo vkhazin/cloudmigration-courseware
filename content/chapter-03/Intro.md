@@ -10,6 +10,7 @@
   * [AWS Storage](https://aws.amazon.com/products/storage/)
 * [Lab: Instance types and IO considerations](./InstanceTypeAndIOSpeedLab.md)
 * [Intermittent connectivity issues](./IntermittentConnectivity.md)
-* Lab: What to do when I cannot connect?
-* [Resilient Software Design](Resilience.md)
-* Lab: Common design patterns
+* [Lab: What to do when I cannot connect?](./ICanNotConnectLab.md)
+* [Resilient Software Design](./Resilience.md)
+* [Lab: Cache design pattern](./CacheDesignPattern.md)
+* [Summary](./Summary.md)

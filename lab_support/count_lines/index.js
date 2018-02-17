@@ -3,7 +3,21 @@ const http = require('http');
 const port = process.argv[2] || 10000;
 const producer_url = process.argv[3] || 'localhost:9000';
 
+
+
 http.createServer( (req, res) => {
+  
+  let responseWithError = (statusCode, message) => {
+    let timestamp = new Date().toISOString();
+    res.statusCode = 504;
+    let data = {
+      message : message,
+      timestamp : timestamp
+    }
+    res.end(JSON.stringify(data, null, 2) + '\n');
+    console.log('[' + timestamp + '] Error : ' + message);
+  };
+  
   console.info('Request received at ' + (new Date().toISOString()) );
   http.get('http://' + producer_url, (resp) => {
     let counter = 0;
@@ -24,14 +38,8 @@ http.createServer( (req, res) => {
       res.end(JSON.stringify(data, null, 2) + '\n');
     });
 
-  }).on("error", (err) => {
-    let error = err.message;
-    res.statusCode = 500;
-    let data = {
-      message : error
-    }
-    res.end(JSON.stringify(data, null, 2) + '\n');
-    console.log("Error: " + error);
+  }).on('error', (err) => {
+    responseWithError(500, err.message);
   });
 }).listen(parseInt(port));
 

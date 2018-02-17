@@ -58,7 +58,9 @@
   * [AWS Storage](https://aws.amazon.com/products/storage/)
 * [Lab: Instance types and IO considerations](./content/chapter-03/InstanceTypeAndIOSpeedLab.md)
 * [Intermittent connectivity issues](./content/chapter-03/IntermittentConnectivity.md)
+* [Lab: What to do when I cannot connect?](./content/chapter-03/ICanNotConnectLab.md)
 * [Resilient Software Design](./content/chapter-03/Resilience.md)
+* [Lab: Cache design pattern](./content/chapter-03/CacheDesignPattern.md)
 * [Summary](./content/chapter-03/Summary.md)
 
 ## Chapter 4: Networking
