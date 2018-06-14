@@ -14,4 +14,4 @@
 
 * Retain
 
-Source: [Migration to Amaxon Web Services](https://aws.amazon.com/cloud-migration/)
+Source: [Migration to Amazon Web Services](https://aws.amazon.com/cloud-migration/)
