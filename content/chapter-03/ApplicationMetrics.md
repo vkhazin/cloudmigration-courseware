@@ -3,14 +3,14 @@
 ## What to measure on an application?
 
 * [Application level metrics](https://stackify.com/application-performance-metrics/):
-  * Error rate, e.g.: Internal error logged per second, 5XX requests/second
-  * Request rate, e.g.: Total requests per second, 2XX requests/second
-  * Response time, e.g.: Average response time, peak response time per second
+  * Error rate, e.g.: internal errors logged per second, 5XX requests/second
+  * Request rate, e.g.: total number of requests per second, no matter the outcome of the request 
+  * Response time, e.g.: average response time, peak response time, or better yet a [percentile](https://www.elastic.co/blog/averages-can-dangerous-use-percentile)
   * Availability: percentage of uptime per time interval
   * Concurrent users, e.g.: Concurrent user count distribution over a day
   * User satisfaction using [Apdex score](https://www.apdex.org/)
   * [Throughput](https://www.cdnetworks.com/en/news/6-critical-web-application-performance-metrics-to-consider/4257). This is very tight to the application at hand. It should be something representing a business value on a time period. For example, in an integration application, how many entities were moved from one system to another per time period.
-  
+
   
 * [System level metrics](https://blog.heroix.com/blog/how-to-monitor-server-performance)
   * CPU utilization, e.g.: CPU utilization percentage

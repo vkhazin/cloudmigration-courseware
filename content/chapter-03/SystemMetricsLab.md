@@ -1,9 +1,16 @@
 # Lab: Tools for Measuring Resource Utilization
 
-* In this lab, we will use two Virtual Machines: one to run a stress test from, and the second instance to run the application being tested on.
+* In this lab, we will use two Virtual Machines:
+  * one to run a stress test from
+  * and another to run the application being tested
 
-* Tester instance
-  * Create a small instance to launch the stress test tool, e.g.: AWS EC2 t2.micro, AMI: Ubuntu Server 16.04 LTS (HVM), SSD Volume Type - ami-66506c1c
+* The Tester Instance
+  * Create a small instance to launch the stress test tool, e.g.: 
+    ```
+    AWS EC2 t2.micro
+    AMI: Ubuntu Server 16.04 LTS (HVM)
+    SSD Volume Type: ami-66506c1c
+    ```
   * Provision this instance with 8GB of disk space
   * ssh into the instance and install [Apache Bench](https://en.wikipedia.org/wiki/ApacheBench):
     * `sudo apt-get update`
