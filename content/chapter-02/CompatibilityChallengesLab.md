@@ -7,7 +7,7 @@
   * network/vpc ip address schema
   * subnet ip address schema
   * number of availability zones
-* As you are creating the resources you will face conflicts, limits, and constrains
+* As you are creating the resources you will face conflicts, limits, and constrains that are different between providers e.g. [Aws](https://aws.amazon.com/vpc/faqs/) and [Azure](https://docs.microsoft.com/en-us/azure/networking/check-usage-against-limits)
 * The constraints maybe familiar to you from previous experience in on-premises environments or brand new
 * Ask questions and follow the links on the public cloud console for more details - the information is getting updated all the time!
 * As an "acceptance criteria" for the lab outcome:
