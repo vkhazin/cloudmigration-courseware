@@ -11,7 +11,5 @@
 * Transport cost is zero.
 * The network is homogeneous.
 
-
-* Notice almost all of them, except **There is one administrator**, are communication and/or network related problems
-
-* More about these fallacies could be found [here](https://blog.fogcreek.com/eight-fallacies-of-distributed-computing-tech-talk/)
+*Notice all of them, but **'There is one administrator'**, are communication and/or network related problems*
+*More about these fallacies could be found [here](https://blog.fogcreek.com/eight-fallacies-of-distributed-computing-tech-talk/)*
