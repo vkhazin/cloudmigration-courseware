@@ -55,7 +55,7 @@
 * [Storage space and IO speed](./content/chapter-03/StorageAndIOSpeed.md)
   * [Azure Cloud Storage](./content/chapter-03/AzureCloudStorage.md)
   * [Oracle Cloud Storage](./content/chapter-03/OracleCloudStorage.md)
-  * [AWS Storage](https://aws.amazon.com/products/storage/)
+  * [AWS Storage](./content/chapter-03/AwsCloudStorage.md)
 * [Lab: Instance types and IO considerations](./content/chapter-03/InstanceTypeAndIOSpeedLab.md)
 * [Intermittent connectivity issues](./content/chapter-03/IntermittentConnectivity.md)
 * [Lab: What to do when I cannot connect?](./content/chapter-03/ICanNotConnectLab.md)
