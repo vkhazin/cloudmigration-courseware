@@ -14,5 +14,5 @@
 * Consider multi-region deployment model - any impact on a IPv4 address space design?
 * How do you know what address spaces are already in use by your organization and its interconnected partners?
 * How do we evolve balancing a limited network addresses space in a high paced agile environment?
-* There is a shared services and a transit network [design proposal](https://www.aviatrix.com/blog/architectural-evolution-networking-public-cloud/)
+* There is a shared services and a transit network [design proposal](https://aviatrix.com/blog/wp-content/uploads/aviatrix-service-architecture.png)
 * There is an evolutionary approach, but it requires changes not just in the network but also in the application [design patterns](http://vkhazin.postach.io/post/infra-and-app-evolution)
