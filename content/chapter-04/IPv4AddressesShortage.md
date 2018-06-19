@@ -7,6 +7,6 @@
   * Legacy networks and data centers with generous overallocation of a IPv4 address space
   * Routing with overlapping IP addresses is likely to be a [challenge](https://supportforums.cisco.com/t5/lan-switching-and-routing/avoid-private-ip-overlap/td-p/3179435)
 * Adoption of IPv6 is growing, but
-  * Public cloud providers are not fast to expose IPv6 for public IP addresses: yes, for [Aws](https://aws.amazon.com/about-aws/whats-new/2017/01/announcing-internet-protocol-version-6-ipv6-support-for-elastic-load-balancing-in-amazon-virtual-private-cloud-vpc/) and no so much, for [Azure](https://stackoverflow.com/questions/48190025/when-do-dynamic-ipv6-addresses-for-azure-load-balancer-front-end-configurations)
-  * Where is you organization on this chart?
+  * Cloud providers support for public IPv6 addresses varies: yes for [Aws](https://aws.amazon.com/about-aws/whats-new/2017/01/announcing-internet-protocol-version-6-ipv6-support-for-elastic-load-balancing-in-amazon-virtual-private-cloud-vpc/), yes for [Google Cloud](https://cloud.google.com/compute/docs/ip-addresses/reserve-static-external-ip-address), and no as much for [Azure](https://stackoverflow.com/questions/48190025/when-do-dynamic-ipv6-addresses-for-azure-load-balancer-front-end-configurations)
+  * Is you organization ready for IPv6 addressing scheme?
   ![ipv6 adoption](../images/chapter-04/ipv6-adoption.png)

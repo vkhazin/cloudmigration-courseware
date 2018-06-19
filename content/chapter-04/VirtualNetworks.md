@@ -7,5 +7,5 @@
 * VNet comes with default routing and Internet access to allow virtual machines to communicate between each other and out to the outside world
 * VNet allows traffic filtering to control traffic inside and from/to outside the VNet
 * To allow traffic from the Internet a security group with an inbound rule will be required
-* Oracle Cloud uses a term Virtual Cloud Network [VCN](https://cloud.oracle.com/en_US/bare-metal-network/vcn/faq)
-* Oracle Security Lists are somewhat similar to Azure Security Groups
+* Aws is using Virtual Private Cloud (VPC) notion to describe an isolated network
+* Aws breaks down a VPC into subnets that could be allocated to different [availability zones](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#concepts-regions-availability-zones) - physical data centers interconnected over redundant low-latency private network links
