@@ -79,7 +79,7 @@
 
 * [Introduction](./content/chapter-05/Intro.md)
 * [Deployment Automation](./content/chapter-05/DeploymentAutomation.md)
-* [Deployment Automation Lab](./content/chapter-05/DeploymentAutomation.md)
+* [Deployment Automation Lab](./content/chapter-05/DeploymentAutomationLab.md)
 * [Configuration Management](./content/chapter-05/ConfigurationManagement.md)
 * [Configuration Options](./content/chapter-05/ConfigManagementOptions.md)
 * [Configuration Management Lab](./content/chapter-05/ConfigurationManagementLab.md)
