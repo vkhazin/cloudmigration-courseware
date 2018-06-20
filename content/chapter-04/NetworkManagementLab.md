@@ -1,10 +1,10 @@
 # Lab: Cloud Network Management
 
 * Get familiar with Cloud Provider access control management
-* In this lab, you will create three small instances on this lab:
-  * **Inbound Public Traffic**: Accessible from outside your network on port 80
-  * **Private and Public Traffic** Accessible only from **Inbound Public Traffic** and **Internal Traffic** on port 80
-  * **Internal Traffic** Accessible from **Inbound Public Traffic** and **Private and Public Traffic**, but without access to the outside world
+* In this lab, we will create three small instances:
+  * **Inbound Public Traffic**: Accessible from the outside on tcp port 80
+  * **Private and Public Traffic**: Accessible only from **Inbound Public Traffic** and **Internal Traffic** on port 80
+  * **Internal Traffic only**: Accessible from **Inbound Public Traffic** and **Private and Public Traffic**, but without access to the outside world
 * Login to Cloud Provider portal
 * Create a security group to allow access to SSH port 22 and the outside world. Let's call this security group `<student-id>-chapter4`
 * Create a security group to allow access to the outside world. Let's call this security group `<student-id>-chapter4-to-outside`
@@ -13,14 +13,15 @@
   * Provision this instance with 8GB of disk space
   * Associate it to the `<student-id>-chapter4` and `<student-id>-chapter4-to-outside` security groups
   * Open an ssh session into the instance and execute the following commands to install and configure [nginx](https://nginx.org/en/)
-    * `sudo apt-get update`
-    * `sudo apt-get install nginx` [Reference](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
-    * Check the installation was successful by accessing the `nginx` using localhost: 
-      * `curl http://localhost`. You should expect an html document stating that the installation was successful.
-    * Modify the content of index html hosted by nginx to display name of the server the page was loaded from:
-      * `sudo vi /var/www/html/index.nginx-debian.html`
-      * Edit the line `Welcome to nginx!` to `Welcome to nginx from In-Access`
-      * Verify the effect of your changes using `curl http://localhost`
+    `sudo apt-get update`
+    `sudo apt-get install nginx`
+    
+  * Check the installation was successful by accessing the `nginx` using localhost: 
+    `curl http://localhost`. You should expect an html document stating that the installation was successful.
+  * Modify the content of index html hosted by nginx to display name of the server the page was loaded from:
+    `sudo vi /var/www/html/index.nginx-debian.html`
+    Edit the line `Welcome to nginx!` to `Welcome to nginx from In-Access`
+    Verify the effect of your changes using `curl http://localhost`
   * Close the ssh session
 * Repeat the above steps to create the two other instances needed (**Private and Public Traffic** and **Internal Traffic**)
 
