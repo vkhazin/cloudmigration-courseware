@@ -3,7 +3,7 @@
 ## Objectives
 
 * Automate provisioning of EC2 instances
-* Push application code to the instance
+* Push an application to the instance
 
 ## Steps
 
@@ -108,10 +108,59 @@ cd ./complete
 export JAVA_HOME="/usr/lib/jvm/java-9-openjdk-amd64"
 ./mvnw clean package
 ```
-1. Running the build application: `java -jar ./target/gs-rest-service-0.1.0.jar`
+1. Running the built application: `java -jar ./target/gs-rest-service-0.1.0.jar`
 1. To test the application locally, open another ssh session into the same instance
 1. Run: `curl localhost:8080/greeting`
 1. Expected output: `{"id":1,"content":"Hello, World!"}`
 1. Close the curl ssh session, return to the ssh session that runs the application and kill it with `Ctrl-C`
 1. Now we need to push the jar to the instance we provision using terraform to simulate the end-to-end deployment
+1. Return to the terraform folder: `cd ~/terraform-deployment`
+1. Update ec2 template to include jar deployment using your favorite editor e.g. `nano ./ec2.tf` and replace with the following content:
+```
+resource "aws_instance" "my-first-ec2-instance" {
+  ami           = "ami-6a003c0f"
+  instance_type = "t2.nano"
+  key_name      = "--paste key pair name--"
+  tags {
+    Name = "--paste your name--"
+    Organization = "courseware"
+    Project = "cloudmigration"
+    Environment = "development"
+  }
 
+  provisioner "file" {
+    source      = "/home/ubuntu/gs-rest-service/complete/target/gs-rest-service-0.1.0.jar"
+    destination = "/home/ubuntu/java-service/gs-rest-service-0.1.0.jar"
+    connection {
+      type     = "ssh"
+      user     = "ubuntu"
+      private_key = "${file("~/.ssh/courseware.key")}"
+    }
+    connection {
+      type     = "ssh"
+      user     = "ubuntu"
+      private_key = "${file("~/.ssh/courseware.key")}"
+    }
+  }
+  
+  provisioner "remote-exec" {
+    inline = [
+      "sudo apt -y update",
+      "sudo apt -y install default-jre",
+      "nohup java -jar ./gs-rest-service-0.1.0.jar &"
+    ]
+    connection {
+      type     = "ssh"
+      user     = "ubuntu"
+      private_key = "${file("~/.ssh/courseware.key")}"
+    }
+  }
+
+}
+```
+1. Redeploy the instance with the jar: `terraform apply -auto-approve`
+1. ssh into the newly deployed instance and confirm the jar is running: `curl localhost:8080/greeting`
+1. Expected output: `{"id":1,"content":"Hello, World!"}`
+1. You can configure your jar to run as-a-service as well: https://chase-seibert.github.io/blog/2011/11/18/running-a-jar-as-a-service-linuxupstart.html
+1. Leave no garbage behind and destroy the just deployed EC2 instance with the deployed jar: `terraform destroy -auto-approve`
+1. A more common practice is to separate infrastructure provisioning and continuous integration with continuous deployment, but that is for a DevOps course
