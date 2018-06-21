@@ -2,8 +2,8 @@
 
 ## Objectives
 
-* Setup a delivery pipeline to see deployment in real life
-* Understand components of a continuous deployment and integration testing
+* Automate provisioning of EC2 instances
+* Push application code to the instance
 
 ## Steps
 
@@ -94,4 +94,24 @@ resource "aws_instance" "my-first-ec2-instance" {
 1. Now you should be able to login into the newly provisioned instance with your private ssh key
 1. Let's destroy the provisioned infrastructure: `terraform destroy -auto-approve`
 1. Next step is deployment of a micro-service to an instance provisioned by terraform
-1. 
+1. Clone a spring boot service:
+```
+cd ~/
+git clone https://github.com/spring-guides/gs-rest-service.git
+cd gs-rest-service
+```
+1. You can explore the source code of the [controller](https://github.com/spring-guides/gs-rest-service/blob/master/complete/src/main/java/hello/GreetingController.java) and the [application](https://github.com/spring-guides/gs-rest-service/blob/master/complete/src/main/java/hello/Application.java)
+1. Installing build tools is quite straightforward: `sudo apt install openjdk-9-jdk-headless maven -y`
+1. Locally building the application:
+```
+cd ./complete
+export JAVA_HOME="/usr/lib/jvm/java-9-openjdk-amd64"
+./mvnw clean package
+```
+1. Running the build application: `java -jar ./target/gs-rest-service-0.1.0.jar'
+1. To test the application locally, open another ssh session into the same instance
+1. Run: `curl localhost:8080/greeting`
+1. Expected output: `{"id":1,"content":"Hello, World!"}`
+1. Close the curl ssh session, return to the ssh session that runs the application and kill it with `Ctrl-C`
+1. Now we need to push the jar to the instance we provision using terraform to simulate the end-to-end deployment
+
