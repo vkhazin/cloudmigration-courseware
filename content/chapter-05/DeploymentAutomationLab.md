@@ -108,7 +108,7 @@ cd ./complete
 export JAVA_HOME="/usr/lib/jvm/java-9-openjdk-amd64"
 ./mvnw clean package
 ```
-1. Running the build application: `java -jar ./target/gs-rest-service-0.1.0.jar'
+1. Running the build application: `java -jar ./target/gs-rest-service-0.1.0.jar`
 1. To test the application locally, open another ssh session into the same instance
 1. Run: `curl localhost:8080/greeting`
 1. Expected output: `{"id":1,"content":"Hello, World!"}`
