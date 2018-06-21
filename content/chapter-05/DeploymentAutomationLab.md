@@ -115,7 +115,8 @@ export JAVA_HOME="/usr/lib/jvm/java-9-openjdk-amd64"
 1. Close the curl ssh session, return to the ssh session that runs the application and kill it with `Ctrl-C`
 1. Now we need to push the jar to the instance we provision using terraform to simulate the end-to-end deployment
 1. Return to the terraform folder: `cd ~/terraform-deployment`
-1. Update ec2 template to include jar deployment using your favorite editor e.g. `nano ./ec2.tf` and replace with the following content:
+1. Update ec2 template to include jar deployment using your favorite editor e.g. `nano ./ec2.tf` 
+1. Replace the entire file with the following content, don't forget to update the placeholders!
 ```
 resource "aws_instance" "my-first-ec2-instance" {
   ami           = "ami-6a003c0f"
@@ -158,8 +159,8 @@ resource "aws_instance" "my-first-ec2-instance" {
 
 }
 ```
-1. Redeploy the instance with the jar: `terraform apply -auto-approve`
-1. ssh into the newly deployed instance and confirm the jar is running: `curl localhost:8080/greeting`
+1. Redeploy EC2 instance with the jar: `terraform apply -auto-approve`
+1. ssh into the newly deployed instance to confirm the jar is running: `curl localhost:8080/greeting`
 1. Expected output: `{"id":1,"content":"Hello, World!"}`
 1. You can configure your jar to run as-a-service as well: https://chase-seibert.github.io/blog/2011/11/18/running-a-jar-as-a-service-linuxupstart.html
 1. Leave no garbage behind and destroy the just deployed EC2 instance with the deployed jar: `terraform destroy -auto-approve`
