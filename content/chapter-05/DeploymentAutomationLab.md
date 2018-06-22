@@ -24,8 +24,8 @@ sudo mv terraform /usr/local/bin/
 1. Create a folder for Terraform templates:
 ```
 cd ~/
-mkdir ./terraform-deployment
-cd ./terraform-deployment/
+mkdir ./terraform-deployment-spring
+cd ./terraform-deployment-spring/
 ```
 1. To manipulate Aws programmatically we need to create access key and secret for our own user account using [IAM Console](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey)
 1. Make sure to copy access key and secret - you will not be able to access secret ever again, in case you missed to copy just recreate the access key
@@ -114,7 +114,7 @@ export JAVA_HOME="/usr/lib/jvm/java-9-openjdk-amd64"
 1. Expected output: `{"id":1,"content":"Hello, World!"}`
 1. Close the curl ssh session, return to the ssh session that runs the application and kill it with `Ctrl-C`
 1. Now we need to push the jar to the instance we provision using terraform to simulate the end-to-end deployment
-1. Return to the terraform folder: `cd ~/terraform-deployment`
+1. Return to the terraform folder: `cd ~/terraform-deployment-spring`
 1. Update ec2 template to include jar deployment using your favorite editor e.g. `nano ./ec2.tf` 
 1. Replace the entire file with the following [content](../../lab_support/ec2.md), do not forget to update the placeholders!
 1. Redeploy EC2 instance with the jar: `terraform apply -auto-approve`
