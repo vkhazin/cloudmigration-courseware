@@ -57,8 +57,8 @@ mysqldump -u root -p helloworlddb > ~/backup/helloworlddb.bak
 23. Running the sync command (make sure to replace bucket name with your own):
 `aws s3 sync '/home/ubuntu/backup' 's3://vlad-khazin-backup-mysql' --storage-class STANDARD_IA`
 24. Where `--storage-class STANDARD_IA` reduces the cost for hosting infrequently accessed content, see more details in [S3 Storage Classes](https://aws.amazon.com/s3/storage-classes/)
-24. Now you can validate that a the backup file has been stored in S3
-25. To simulate a sequence of disasters, delete backup file: `rm -rf ~/backup`
+24. Now we can validate that the backup file has been stored in S3
+25. To simulate a sequence of disasters, delete backup file: `rm -rf ~/backup` to simulate a lost backup on the local file system
 26. Login into mysql shell: `mysql -u root -p`
 27. *Accidently* drop the table: use helloworlddb; drop table message;`
 28. Confirm there is no more table in the database: `use helloworlddb; select * from message;`
@@ -68,9 +68,9 @@ Database changed
 ERROR 1146 (42S02): Table 'helloworlddb.message' doesn't exist
 ```
 30. Exit the mysql shell with `exit;`
-31. Copy the file from S3 storage down to EC2 file system: `aws s3 sync 's3://vlad-khazin-backup-mysql' ~/backup`
+31. Copy the file back from S3 storage to EC2 file system: `aws s3 sync 's3://vlad-khazin-backup-mysql' ~/backup`
 32. Restore the database from backup: `mysql -u root -p helloworlddb < ~/backup/helloworlddb.bak `
-33. Back into mysql shell to confirm the data has been restored: `use helloworlddb; select * from message;`
+33. Login back into mysql shell to confirm the data has been restored: `use helloworlddb; select * from message;`
 34. Expected output:
 ```
 +----+--------------+
@@ -80,9 +80,9 @@ ERROR 1146 (42S02): Table 'helloworlddb.message' doesn't exist
 +----+--------------+
 1 row in set (0.00 sec)
 ```
-35. Have time? You can look into [Azure Blob Storage](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-linux)
-36. As well as there is a much simpler way to manage database backup/restore on the public cloud: 
+35. Have time? You can look into [Azure Blob Storage](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-linux) steps and instructions
+36. As well as there is a much simpler way to manage database backup/restore processes on the public cloud: 
   * [Aws Aurora Backtrack](https://aws.amazon.com/blogs/aws/amazon-aurora-backtrack-turn-back-time/?sc_icampaign=launch_aurora_backtrack&sc_ichannel=ha&sc_icontent=awssm-856&sc_iplace=signin&trk=ha_awssm-856)
   * [Sql Azure](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-automated-backups)
   * [MySql Azure](https://docs.microsoft.com/en-us/azure/mysql/concepts-backup)
-  * [Aws RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_WorkingWithAutomatedBackups.html)
+  * [Aws Rds](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_WorkingWithAutomatedBackups.html)
