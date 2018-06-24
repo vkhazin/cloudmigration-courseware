@@ -92,7 +92,7 @@
 ## Chapter 6: High-Availability and Disaster Recovery
 * [Introduction](./content/chapter-06/Intro.md)
 * [Backup and Restore Options](./content/chapter-06/BackRestore.md)
-* [Backup and Restore Lab](./content/chapter-06/BackRestore.md)
+* [Backup and Restore Lab](./content/chapter-06/BackRestoreLab.md)
 * [Multi-Region/Zone Availability](./content/chapter-06/MultiLocation.md)
 * [Multi-Region/Zone Availability Lab](./content/chapter-06/MultiLocationLab.md)
 * [Preparing for Cloud Outage](./content/chapter-06/CloudOutage.md)

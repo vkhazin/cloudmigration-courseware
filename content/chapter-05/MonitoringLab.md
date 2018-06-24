@@ -20,7 +20,6 @@
 1. Select alarms
 1. Create a new alarm for your instance when CPUUtilization exceeds 50%
 1. Explore options for actions and notifications
-
 1. Login into https://portal.azure.com
 1. Use existing or create a new Ubuntu Server 16.04 virtual machine, select the smallest/cheapest available in your region
 1. Wait for the server to finish initialization

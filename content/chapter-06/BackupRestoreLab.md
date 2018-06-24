@@ -8,6 +8,13 @@
 
 ## Steps
 
+1. Login into an EC2 instance
+2. Let's install a MySql database on it:
+```
+sudo apt-get install mysql-server -y
+
+```
+
 * Backup something using different options
 * Recreate VM and restore the backup
 * 
