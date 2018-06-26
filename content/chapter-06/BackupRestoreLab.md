@@ -10,7 +10,7 @@
 
 1. Login into an EC2 instance
 2. Let's install a MySql database on it: `sudo apt-get install mysql-server -y`
-3. Specify a password for root user e.g. `qWerty1@3456`
+3. Specify a password for root user e.g. `qWerty6%4321`
 4. Login into the database using [MySql cli](https://dev.mysql.com/doc/refman/8.0/en/mysql.html): `mysql -u root -p`
 5. Once in the mysql shell, let's create a database, a table, write some data into it, and confirm there is a data in the table:
 ```
