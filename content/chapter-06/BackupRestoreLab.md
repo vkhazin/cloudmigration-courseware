@@ -47,7 +47,7 @@ mysqldump -u root -p helloworlddb > ~/backup/helloworlddb.bak
 15. Using S3 Bucket comes with a a high durability of [99.999999999%](https://aws.amazon.com/s3/faqs/)
 16. Let's go through the process of uploading backup file to S3 storage:
 17. Create a bucket using [Aws Web Console](https://s3.console.aws.amazon.com/s3/home), make sure to select the region where ec2 instance is running
-18. Give bucket a name: *your-name*-mysql-backup
+18. Give bucket with name: *your-name*-mysql-backup
 19. Back into the EC2 instance, install [aws cli](https://aws.amazon.com/cli/): `sudo apt-get install awscli -y`
 20. Configure aws cli with: `aws configure`, you will need your access key and secret from yesterday, if lost you can create a new key/secret for your own user account, you may also adopt a unique account per service strategy
 21. A couple of items to pay attention to as you are creating a bucket:
