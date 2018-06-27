@@ -2,7 +2,7 @@
 
 * Backup and restore options
 * Lab: Backup and restore
-* Multi-region/zone availability
-* Lab: Multi-region/zone availability
+* High Availability
+* Lab: High Availability
 * Preparing for Cloud Provider Outage
 * Lab: Software design and disaster recovery patterns

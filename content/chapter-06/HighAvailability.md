@@ -1,4 +1,4 @@
-# Multi-Region/Zone availability
+# High-Availability
 
 * What is and do I need a [High Availability Architecture](https://www.getfilecloud.com/blog/an-introduction-to-high-availability-architecture/)?
 * How High Availability design is different between on-premises and on the cloud?

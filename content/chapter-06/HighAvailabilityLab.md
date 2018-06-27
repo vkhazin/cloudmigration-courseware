@@ -10,9 +10,9 @@
 
 ## Steps
 
-### Instructor in parallel with Participants
+### Instructor, in parallel, with Participants
 
-1. Create Aws Rds Aurora Instance
+1. Create Aws Rds Aurora `MySql` Instance
 1. DB instance class: `db2.small instance`
 1. Select `Read replica`
 1. Instance name: `cloudmigration-auroradb`
@@ -118,5 +118,5 @@ curl localhost:3000/message/3
   * Security group settings will require adjustments too
 1. What's the acceptance criteria: you should be able to shutdown one of the two instances and to continue serving traffic from the other instance
 1. Aurora on Rds is highly available: no actions required from your end
-1. While it is possible to setup a highly available MySql on Aws without an Rds, it is taking some time and practice
-1. Azure, similar to Aws Rds, offers highly available MS Sql, MySql and Cosmos DB. The later with [cross-region availability](https://docs.microsoft.com/en-us/azure/cosmos-db/distribute-data-globally).
+1. While it is possible to setup a highly available MySql on Aws without Rds, it does take some time and practice
+1. Azure, similar to Aws Rds, offers highly available MS Sql, MySql and Cosmos DB, the later with [cross-region availability](https://docs.microsoft.com/en-us/azure/cosmos-db/distribute-data-globally).
