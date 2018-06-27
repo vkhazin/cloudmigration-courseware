@@ -1,6 +1,6 @@
 # Preparing for a Cloud Outage
 
-## Overviewjavascript:void(0)
+## Overview
 
 * [Azure](https://azure.microsoft.com/en-us/support/legal/sla/), [Aws](https://aws.amazon.com/ec2/sla/), and [Oracle](http://www.oracle.com/us/corporate/contracts/saas-online-csa-us-1894130.pdf) come with [SLA's](https://en.wikipedia.org/wiki/Service-level_agreement), a fascinating reading material for a legal professional
 * Unfortunate reality is that cloud providers are experiencing unplanned outages: [Aws](https://www.readitquik.com/articles/elastic-computing/top-7-aws-outages-that-wreaked-havoc/), [Azure](https://venturebeat.com/2017/03/15/microsoft-confirms-azure-storage-issues-around-the-world/), [Oracle](https://jonathanhult.com/blog/2017/11/oracle-cloud-unplanned-outage-november-7-2017/) and probably any other
