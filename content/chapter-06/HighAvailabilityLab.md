@@ -1,4 +1,4 @@
-# Geo collocation design patterns
+# High Availability Lab
 
 ## Objectives
 
@@ -10,7 +10,7 @@
 
 ## Steps
 
-### Instructor, in parallel, with Participants
+### Instructor
 
 1. Create Aws Rds Aurora `MySql` Instance
 1. DB instance class: `db2.small instance`
