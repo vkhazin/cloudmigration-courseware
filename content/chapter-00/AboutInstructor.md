@@ -2,7 +2,7 @@
 
 * Solution and Enterprise Architect
 * Real-world cloud experience
-* Wide rand of organizational and technical environments
+* Wide range of organizational and technical environments
 * Passionate about learning and teaching new technologies and approaches
 * Objective of the training is to shorten the runway and to get airborne, fast!
 * In nowadays information is readily available using web search engine, hence overloading course materials with lot's of details is not overly helpful
