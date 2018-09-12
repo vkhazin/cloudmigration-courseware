@@ -27,5 +27,5 @@
     * `ab -n 1000 -c 10 http://<app_instance public-ip or dns>:9000/`
   * Create another ssh session into the tester instance and execute a stress test to the slow IO application instance
     * `ab -n 1000 -c 10 http://<slow_IO_app_instance public-ip or dns>:9000/`
-  * Do the results are similar? Notice the response time mean and the number of request per second
-  * Start increasing the concurrency setting `-c 10` to `-c 200` on the stress test. Do the results continue to be the same?
+  * Are the results similar? Notice the response time mean and the number of requests per second
+  * Start increasing the concurrency setting `-c 10` to `-c 200` on the stress test. Are the results to the same?
