@@ -4,7 +4,7 @@
 
 * [Performance Monitor](http://www.appadmintools.com/documents/windows-performance-counters-explained/)
   * CPU performance counter, e.g.: `\Processor(*)\% Processor Time`
-  * Momory performance counters, e.g.: `\Memory\Available Bytes`
+  * Memory performance counters, e.g.: `\Memory\Available Bytes`
   * Network, e.g.: `\Network Interface(*)\Bytes Received/sec`
   * Disk, e.g.: `\PhysicalDisk(*)\Disk Read Bytes/sec`
 
