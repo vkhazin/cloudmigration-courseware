@@ -12,7 +12,7 @@
 * Ask questions and follow the links on the public cloud console for more details - the information is getting updated all the time!
 * As an "acceptance criteria" for the lab outcome:
   * Create one Virtual Network/Vpc
-  * At least on subnet
+  * At least one subnet
   * At least one VM, check-out instance types and pricing information for the forthcoming charge-backs ;-)
   * Connect to the VM using SSH, Linux/MacOs has ssh client built-in, Windows will require a [download](https://www.ssh.com/ssh/client)
   * Find out how to enable network access to the VM and how to access the Internet from the VM
