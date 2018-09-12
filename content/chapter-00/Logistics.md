@@ -1,10 +1,11 @@
 # Logistics
 
-* Start at 9:30
+* All times are in [Paris Time zone](https://time.is/Paris)
+* Start at 8:30
 * Morning break around 10:45 for 15 min 
 * Lunch break 12:00 to 13:00
 * Afternoon breaks: around 14:30 and 16:00 for 15 min each
-* Finish at 17:30
+* Finish at 16:30
 * Materials are available on-line during and after the course
 * Materials contain external links which may become broken
 * Labs are mini-hackathons, not step-by-step instructions, UI and API change often - challenges are expected
