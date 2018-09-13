@@ -63,7 +63,7 @@ provider "aws" {
 1. Create a new file using you preferred text editor e.g. `nano ./ec2.tf` with the following content:
 ```
 resource "aws_instance" "my-first-ec2-instance" {
-  ami           = "ami-6a003c0f"
+  ami           = "replace-with-ubuntu-16.04-lts-id"
   instance_type = "t2.nano"
 }
 ```
