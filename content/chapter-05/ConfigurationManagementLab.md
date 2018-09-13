@@ -63,7 +63,7 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 ```
 1. Save the file and re-run the program: `nodejs index.js`
 1. What's the port number has been listed now in the output?
-1. What are the pros and cons for each of this approaches?
+1. What are the pros and cons for each of these approaches?
 1. Are there other options available?
 1. There is a plenty of tools and services available, experiment and adopt:
   * https://www.consul.io/
