@@ -3,7 +3,7 @@
 ## [Azure Cloud Storage](https://docs.microsoft.com/en-us/azure/storage/common/storage-introduction)
 
 * [Disks](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/managed-disks-overview)
-  * Aims Virtual Machine deployment
+  * Aims at Virtual Machine deployment
   * Two options: [Standard](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/standard-storage) and [Premium](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/premium-storage)
   
   
@@ -13,6 +13,6 @@
   
   
 * [Azure Files](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-introduction)
-  * Replace or supplement traditional on-premises file servers, NAS, or SAN
-  * Used by application expecting to have a file share to store files or user data
+  * Replace or supplement traditional on-premises file servers: NAS or SAN
+  * Used by application expecting to have a shared file system for files or user data
   

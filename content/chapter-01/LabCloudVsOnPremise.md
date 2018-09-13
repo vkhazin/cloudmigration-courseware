@@ -4,7 +4,7 @@
 
   * Development platform, e.g.: Java, .Net, Node.js, Python, etc.
   * Storage:
-    * Deployment articraft, e.g: .dlls, .war, .ear, files, etc
+    * Deployment artifacts, e.g: .dlls, .war, .ear, files, etc
     * Data Storage, e.g.: RDBMS, NoSQL Database, files
     * Source control, e.g.: Git, SVN, Team Foundation Server
   * Non-functional requirements:

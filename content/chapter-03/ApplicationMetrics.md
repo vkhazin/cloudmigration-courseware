@@ -9,7 +9,7 @@
   * Availability: percentage of uptime per time interval
   * Concurrent users, e.g.: Concurrent user count distribution over a day
   * User satisfaction using [Apdex score](https://www.apdex.org/)
-  * [Throughput](https://www.cdnetworks.com/en/news/6-critical-web-application-performance-metrics-to-consider/4257). This is very tight to the application at hand. It should be something representing a business value on a time period. For example, in an integration application, how many entities were moved from one system to another per time period.
+  * [Throughput](https://www.cdnetworks.com/en/news/6-critical-web-application-performance-metrics-to-consider/4257). This is very tight to the application at hand. It should be something representing a business value on a time period. For example, in an integration application, how many entities were moved from one system to another per time period
 
   
 * [System level metrics](https://blog.heroix.com/blog/how-to-monitor-server-performance)

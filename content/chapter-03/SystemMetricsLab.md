@@ -9,9 +9,8 @@
     ```
     AWS EC2 t2.micro
     AMI: Ubuntu Server 16.04 LTS (HVM)
-    SSD Volume Type: ami-66506c1c
     ```
-  * Provision this instance with 8GB of disk space
+  * Provision the instance with 8GB of disk space
   * ssh into the instance and install [Apache Bench](https://en.wikipedia.org/wiki/ApacheBench):
     * `sudo apt-get update`
     * `sudo apt-get install apache2-utils`
@@ -20,7 +19,7 @@
 
 
 * Application instance
-  * Create another small install to install `get_a_book` application and monitor it
+  * Create another small install to install `get_a_book` application and to monitor it
   * ssh into the new instance and install `node` and `npm`:
     * `sudo apt-get update`
     * `sudo apt-get install npm`
@@ -37,7 +36,7 @@
 
 
 * Testing procedure
-  * Form the ssh session into the tester instance access the app:
+  * From the ssh session into the tester instance access the app:
     * `curl http://<app_instance public ip or dns>:9000/`
     * On the app instance ssh session you should see a log message everytime a request is received
   * Open another ssh session into the app instance and use the `top` command to see the system metrics
