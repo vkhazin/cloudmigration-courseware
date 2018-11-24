@@ -4,7 +4,7 @@
 
 * Course materials can be accessed [online1](https://vkhazin.gitbooks.io/cloudmigration-courseware/content/) or [online2](http://cloudmigration-courseware.surge.sh/)
 * Course materials can also be downloaded in pdf or pub format from [Gitbook](https://www.gitbook.com/book/vkhazin/cloudmigration-courseware/details)
-* If you did not have a chance to fill-out [pre-course survey](https://www.surveymonkey.com/r/QSY9RN8), please do so now
+* If you did not have a chance to fill-out [pre-course survey](https://www.surveymonkey.com/r/3GR3VJZ), please do so now
 * You will need a private/public ssh key to access your VM
   * You can re-use private/public ssh key you already may have
   * [Or you can generate a new key pair](https://docs.joyent.com/public-cloud/getting-started/ssh-keys/generating-an-ssh-key-manually)
