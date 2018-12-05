@@ -5,3 +5,4 @@
 ![Data Center](../images/chapter-02/microsoft-azure-data-center.jpg)
 * Azure operates over [30 regions](https://azure.microsoft.com/en-us/regions/) around the world with more being added
 * Oracle Cloud operates over [10 regions](https://cloud.oracle.com/data-regions) and counting
+* Within a region there are availability zones - interconnected data centers 
