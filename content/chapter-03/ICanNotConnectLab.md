@@ -18,7 +18,7 @@
   * Download the application:
     `curl -L -O https://raw.githubusercontent.com/vkhazin/cloudmigration-courseware/master/lab_support/count_lines.zip`
   * Unzip the app: `unzip count_lines.zip`
-  * This application will open the port 10000. Ensure you configure your network security correctly to make that port accessible. Try to find it your self, but the portal console *Security Groups* could be a good place to start
+  * This application will listen on port 10000. Ensure you configure your network security correctly to make that port accessible. Try to find it yourself - the portal console *Security Groups* could be a good place to start
   * Change directory into the app folder to run it
     `cd count_lines`
     `npm start <get_a_book instance public ip or dns>:9000`
