@@ -13,7 +13,8 @@
 * Configuration management for cloud deployed resources may need to be enhanced with DevOps practices to reduce the burden
 * Monitoring of cloud assets may not be possible with the same tools that were used for the on-premises deployments
 * Security of cloud deployed applications maybe better or worse compared to on-premises deployments, mostly depending on who is casting the opinion
-* High-Availability and Disaster recovery on the cloud offers new capabilities but come with some new challenges 
+* High-Availability and Disaster recovery on the cloud offers new capabilities but come with some new challenges
+* The greatest benefit of adopting public cloud is not likely to come from migrating existing workloads as-is 
 
 # Audience
 
@@ -109,6 +110,6 @@
 * Lessons learned
 * Pace of innovation on the cloud
 
-# Fine Print
+# The Fine Print
 * Labs refer to a hand-on exercise, to a group discussion, or to a guided self-study
-* Lab instructions are general guidance as cloud providers interface and options are frequently updated
+* Lab instructions are a general guidance as cloud providers interface and options are frequently updated

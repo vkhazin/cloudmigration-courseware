@@ -1,6 +1,8 @@
 # TODO:
 
 * iops lab does not demo a sufficient proof of better performance with a higher iops!
+* cisco are mostly network and video streaming engineers, app architecture not relevant
+* past two projects sees to indicate that lift-and-shift is not as practical
 
 # Author Setup
 * Install node.js and npm

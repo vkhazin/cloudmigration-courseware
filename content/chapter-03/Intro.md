@@ -6,7 +6,7 @@
 * [Lab: Tools for Measuring Resource Utilization](./SystemMetricsLab.md)
 * [Storage space and IO speed](./StorageAndIOSpeed.md)
   * [Azure Cloud Storage](./AzureCloudStorage.md)
-  * [Oracle Cloud Storage](./OracleCloudStorage.md)
+  * [Google Cloud Storage](./GoogleCloudStorage.md)
   * [AWS Storage](https://aws.amazon.com/products/storage/)
 * [Lab: Instance types and IO considerations](./InstanceTypeAndIOSpeedLab.md)
 * [Intermittent connectivity issues](./IntermittentConnectivity.md)

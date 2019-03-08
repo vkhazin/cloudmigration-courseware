@@ -4,5 +4,5 @@
 * Each Region is a gigantic data center or multiple interconnected data centers
 ![Data Center](../images/chapter-02/microsoft-azure-data-center.jpg)
 * Azure operates over [30 regions](https://azure.microsoft.com/en-us/regions/) around the world with more being added
-* Oracle Cloud operates over [10 regions](https://cloud.oracle.com/data-regions) and counting
-* Within a region there are availability zones - interconnected data centers 
+* Google Cloud Platofrm operates [18 regions](https://cloud.google.com/about/locations/) and counting
+* Within a region there are availability zones - interconnected data centers over a high bandwidth and low latency network
