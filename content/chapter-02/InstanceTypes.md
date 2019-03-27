@@ -9,9 +9,11 @@
   * G & M-Series, where M, maybe, stands for `Monster` up to 128 vCPUs and up to 3.8 TiB, not cheap: [$19,535.62/month](https://azure.microsoft.com/en-us/pricing/calculator/#virtual-machines1). A powerful combination for many enterprise-grade applications
   * Not all instance types are available in every [region](https://azure.microsoft.com/en-ca/regions/services/). Regions explanation is ahead.
  
-* [Oracle](https://cloud.oracle.com/infrastructure/compute/virtual-machine/features)
-  * General Purpose are balanced and are uitable for wide range of applications
-  * DenseIO are suited for larger local storage databases
-  * Less options compared to Azure, but Oracle Cloud is also younger
+* [Google Cloud Platform](https://cloud.google.com/compute/docs/machine-types)
+  * Standard machine types are suitable for tasks that have a balance of CPU and memory needs
+  * High-memory machine types are ideal for tasks that require more memory relative to vCPUs
+  * High-CPU machine types are ideal for tasks that require more vCPUs relative to memory
+  * Shared-core machine types provide one vCPU that is allowed to run for a portion of the time on a single hardware hyper-thread
+  * There is also an option to attach a [GPU](https://cloud.google.com/compute/docs/gpus/) to certain machine types
    
-* Psst: Instance types and regional availability is not a static picture, double check everything, every-so-often!  
+* Psst: Types and availability is not a static picture, double check everything, every-so-often!  
